@@ -1,0 +1,2512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://laravelhelper.monster/</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-maatwebsite-excel-text-align-center-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-maatwebsite-excel-set-font-weight-bold-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-firebase-push-notification-to-android-and-ios-app-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-maatwebsite-excel-set-font-color-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-maatwebsite-excel-set-cell-height-and-width-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-override-auth-register-method-in-laravel-8example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/1</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/4</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/5</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/6</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/7</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/8</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/9</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/10</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/11</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/12</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/13</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/14</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/15</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/16</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/17</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/18</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/19</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/20</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/21</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/22</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/23</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/24</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/25</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/26</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/27</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/28</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/29</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/30</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/31</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/32</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/33</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/34</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/35</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/36</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/37</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/38</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/39</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/40</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/41</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/42</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/43</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/44</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/45</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/46</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/47</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/48</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/49</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/50</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/51</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/52</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/53</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/54</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/55</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/56</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/57</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/58</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/59</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/60</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/61</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/62</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/63</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/64</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/65</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/66</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/67</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/68</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/69</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/70</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/71</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/72</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/73</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/74</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/75</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/76</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/77</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/78</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/79</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/80</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/81</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/82</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/83</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/84</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/85</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/86</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/87</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/88</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/89</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/90</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/91</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/92</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/93</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/94</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/95</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/96</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/97</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/98</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/99</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/100</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/101</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/102</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/103</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/104</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/105</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/106</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/107</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/108</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/109</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/110</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/111</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/112</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/113</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/114</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/115</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/116</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/117</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/118</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/119</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/120</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/121</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/122</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/123</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/124</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/125</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/126</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/127</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/128</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/129</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/130</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/131</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/132</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/133</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/134</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/135</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/136</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/137</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/138</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/139</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/140</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/141</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/142</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/143</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/144</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/145</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/146</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/147</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/148</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/149</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/150</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/151</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/152</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/153</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/154</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/155</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/156</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/157</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/158</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/159</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/160</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/161</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/162</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/163</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/164</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/165</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/166</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/167</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/168</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/169</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/170</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/171</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/172</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/173</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/174</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/175</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/176</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/177</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/178</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/179</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/180</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/181</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/182</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/183</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/184</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/185</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/186</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/187</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/188</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/189</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/190</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/191</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/192</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/193</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/194</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/195</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/196</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/197</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/198</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/199</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/200</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/1?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/1?page=3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/1?page=4</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/1?page=5</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/1?page=6</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/1?page=7</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/1?page=8</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/1?page=9</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/1?page=10</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/1?page=148</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/1?page=149</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-display-query-log-in-laravel-6example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-6-install-bootstrap-4-tutorialexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-53-create-bootstrap-contact-us-form-using-form-requestexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-notification-message-popup-using-toastr-js-pluginexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-6-install-react-js-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/real-time-event-broadcasting-with-laravel-6-and-socketioexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-broadcast-redis-socket-io-tutorial-example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-6-highcharts-tutorialexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-6-install-vue-js-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-and-vue-js-crud-with-pagination-example-and-demo-from-scratchexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-react-js-axios-post-request-example-tutorialexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-6-admin-panel-tutorialexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-6-crud-application-tutorialexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-6-release-new-features-and-upgradeexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-install-botman-chatbot-in-laravel-5example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/9?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/9?page=3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/9?page=4</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/9?page=5</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/9?page=6</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/9?page=7</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/9?page=8</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/9?page=9</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/9?page=10</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/9?page=17</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/9?page=18</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-6-dropzone-image-upload-tutorialexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-ajax-crud-with-pagination-example-and-demo-from-scratchexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-6-ajax-image-upload-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-6-ajax-crud-tutorialexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-update-user-status-using-toggle-button-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-make-simple-dependent-dropdown-using-jquery-ajax-in-laravel-5example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/11?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/11?page=3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-add-year-to-date-in-phpexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-add-months-to-date-in-phpexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-add-days-to-date-in-phpexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-how-to-get-file-name-and-extension-form-urlexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-find-number-from-string-in-phpexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-extract-all-email-addresses-from-string-in-phpexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/12?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/12?page=3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/12?page=4</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/12?page=5</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/12?page=6</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/12?page=7</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/12?page=8</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/12?page=9</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/12?page=10</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/12?page=17</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/12?page=18</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-upgrade-php-version-from-73-to-74-in-ubuntuexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-upgrade-php-version-from-72-to-73-in-ubuntuexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-downgrade-php-74-to-73-ubuntuexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-dropzone-add-download-button-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-delete-uploaded-file-in-dropzone-jsexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-signature-pad-example-e-signature-pad-using-jquery-ajax-and-phpexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-disable-submit-button-after-form-submission-in-phpexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-display-existing-files-on-server-in-dropzone-js-using-phpexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-file-upload-progress-bar-with-percentage-using-form-jquery-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/14?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/14?page=3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/jquery-disable-submit-button-on-click-to-prevent-multiple-form-submitsexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-image-upload-without-refreshing-page-using-jquery-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-get-ckeditor-value-with-tags-on-ajax-submit-example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-can-i-print-php-variable-in-jqueryexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/-how-to-check-object-is-empty-or-not-in-jquery-javascript-example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/15?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/15?page=3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-codeigniter-curl-post-request-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/codeigniter-form-validation-with-error-messageexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/codeigniter-compress-image-size-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/codeigniter-upload-multiple-file-and-image-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-create-custom-library-file-in-codeigniter-3example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/codeigniter-3-restful-api-tutorialexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/16?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/16?page=3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/16?page=4</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/16?page=5</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/16?page=6</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/16?page=7</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/16?page=8</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-convert-php-array-to-json-object-with-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-curl-post-request-with-parameters-and-get-json-responseexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-download-file-from-url-using-curl-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/codeigniter-add-remove-multiple-input-fields-dynamically-with-jqueryexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/crop-image-before-upload-codeigniter-3-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-codeigniter-3-google-recaptcha-form-validation-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/19?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/angularjs-php-mysql-pagination-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/angularjs-add-remove-input-fields-dynamically-with-php-mysqliexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/20?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-fetch-single-row-from-database-in-php-codeigniterexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-codeigniter-get-last-executed-query-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/multiple-database-connection-in-php-codeigniter-3example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/21?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/add-remove-multiple-input-fields-dynamically-with-jquery-laravel-58example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-57-jquery-form-validation-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-56-multiple-image-upload-using-bootstrap-fileinputexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-notification-alert-using-bootstrap-notify-plugin-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/22?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/22?page=3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-jquery-ajax-post-request-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-use-sweet-alert-for-delete-confirm-in-codeigniterexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/codeigniter-ajax-form-validation-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/codeigniter-multiple-drag-and-drop-image-upload-example-from-scratchexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/24?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/24?page=3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-58-datatables-tutorialexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/ajax-pagination-with-laravel-58-tutorialexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/jquery-ajax-form-validation-with-laravel-58example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/delete-record-using-ajax-request-in-laravel-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-laravel-file-upload-with-progress-bar-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/25?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/25?page=3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-58-ajax-crud-tutorial-using-datatable-jsexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-create-captcha-code-in-laravel-5example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-ajax-crop-image-before-upload-using-using-croppie-pluginexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-jquery-ajax-pagination-example-from-scratchexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-implement-infinite-ajax-scroll-pagination-in-laravel-5example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/26?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/26?page=3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/26?page=4</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/ajax-autocomplete-textbox-in-laravel-58-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-follow-unfollow-system-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-delete-multiple-records-using-checkbox-in-laravel-5-example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-confirmation-before-delete-record-from-database-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-dynamic-dependant-select-box-using-jquery-ajax-example-part-1example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-dynamic-dependant-select-box-using-jquery-ajax-example-part-2example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/27?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/27?page=3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/27?page=4</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/27?page=5</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/27?page=6</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-58-crud-create-read-update-delete-tutorial-for-beginnersexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-57-pagination-link-customizations-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/full-text-search-in-laravel-5-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-use-sweetalert-message-box-in-laravel-5example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/paytm-payment-gateway-integration-example-in-laravel-5example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-54-send-email-using-markdown-mailablesexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/28?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/28?page=3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/codeigniter-ajax-form-submit-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/codeigniter-3-ajax-pagination-using-jquery-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/jquery-ajax-request-example-in-codeigniterexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/29?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/29?page=3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/file-upload-using-vue-js-axios-phpexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-vue-router-example-from-scratchexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-vue-flash-message-example-from-scratchexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-vue-js-file-upload-using-vue-dropzone-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-vue-js-image-upload-example-with-demoexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-vue-js-axios-post-request-example-and-demoexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-vue-js-infinite-scroll-example-with-demoexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/31?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/31?page=3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-create-dynamic-highcharts-in-codeigniter-3example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/codeigniter-fullcalendar-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-57-autocomplete-search-from-database-using-typeahead-jsexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-57-ajax-pagination-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-57-crud-create-read-update-delete-tutorial-example-example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-56-crud-application-for-starterexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-column-sorting-with-pagination-example-from-scratchexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/36?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/jquery-ajax-crud-operations-in-phpexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-jquery-chosen-ajax-autocomplete-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/37?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/create-dynamic-treeview-example-using-jquery-ajax-in-php-mysqlexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-mysql-simple-image-gallery-crud-example-from-scratchexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/38?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-codeigniter-3-create-dynamic-tree-view-using-bootstrap-treeview-jsexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/column-sorting-using-php-and-mysqlexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-get-filename-from-file-path-in-mysqlexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-get-last-2-days-records-from-table-using-mysql-queryexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-get-current-month-data-in-mysql-php-example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-fetch-this-week-records-in-mysql-example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-check-empty-or-null-in-mysql-queryexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/40?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/40?page=3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/40?page=4</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-delete-multiple-rows-using-checkbox-in-codeigniter-3example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/dynamic-dependent-dropdown-using-vuejs-and-phpexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-multi-language-translation-using-lang-helper-tutorialexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-dynamic-drag-and-drop-table-rows-using-jquery-ajaxexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-mysql-confirmation-box-before-delete-record-using-jquery-ajaxexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/jquery-ajax-x-editable-bootstrap-plugin-to-update-records-in-php-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/44?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/44?page=3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/44?page=4</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-codeigniter-3-jquery-ajax-autocomplete-search-using-typeaheadexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-laravel-5-like-dislike-system-tutorialexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/crud-operation-using-php-mongodbexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-mongodb-crud-tutorialexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-56-dynamic-ajax-autocomplete-using-vuejsexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/dynamic-form-validation-in-vuejs-with-php-laravel-56example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/confirm-box-before-delete-item-in-codeigniterexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-angularjs-populate-dynamic-dropdown-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-56-login-with-facebook-with-socialiteexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-and-mysql-login-with-google-account-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/codeigniter-3-datatables-ajax-example-from-scratchexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-ajax-multiple-image-upload-with-preview-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-simple-crud-application-using-reactjs-part-1example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-simple-crud-application-using-reactjs-part-2example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-simple-crud-application-using-reactjs-part-3example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/57?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/57?page=3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/57?page=4</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-dynamically-add-remove-input-fields-using-jquery-ajax-example-with-demoexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-bootstrap-autocomplete-tokenfield-with-ajax-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/58?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/angularjs-ajax-autocomplete-using-typeahead-in-php-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/codeigniter-3-basic-crud-application-with-mysql-example-with-demoexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/codeigniter-3-crudcreate-read-update-and-delete-using-jquery-ajax-bootstrap-models-and-mysqlexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/60?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/60?page=3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-dynamically-add-or-remove-input-fields-using-jqueryexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/61?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-55-simple-cms-website-example-using-asgardcmsexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-55-crud-example-from-scratchexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/simple-php-ajax-form-validation-example-from-scratchexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/simple-tags-system-example-in-laravel-5example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-create-ban-revoke-user-functionality-in-laravel-5-example-example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/65?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-jquery-datatables-with-mysql-database-example-from-scratchexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/66?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-curl-request-example-using-ixudra-curl-packageexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-mysql-contact-us-form-with-validation-using-bootstrapexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-import-excel-file-into-mysql-database-tutorialexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-script-login-with-facebook-using-facebook-php-sdk-and-mysql-example-with-demoexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/68?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-integrate-jquery-fullcalendar-using-bootstrap-php-and-mysql-example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-ajax-request-validation-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-prevent-submit-form-on-enter-key-except-textarea-in-jqueryexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-create-scroll-to-top-of-the-page-by-jquery-animate-example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/multi-select-autocomplete-jquery-example-with-codeexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/71?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/codeigniter-dynamic-dependent-dropdown-using-jquery-ajax-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/codeigniter-jquery-ajax-image-upload-example-from-scratchexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/73?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-how-to-create-api-authentication-using-passport-example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/ajax-image-upload-using-php-and-jquery-example-from-scratchexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-custom-file-uploading-with-ckeditorexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-set-scroll-to-bottom-in-jqueryexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-implement-flash-messages-in-php-codeigniterexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-install-laravel-in-your-android-phoneexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-create-blade-view-file-using-command-line-in-laravelexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-codeigniter-ajax-infinite-scroll-pagination-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-how-to-make-dependent-dropdown-list-using-jquery-ajaxexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/codeigniter-3-generate-pdf-from-view-using-dompdf-library-with-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-input-multiple-tags-with-dynamic-autocomplete-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-dynamic-autocomplete-search-using-select2-js-ajax-part-1example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-dynamic-autocomplete-search-using-select2-js-ajax-part-2example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/83?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/mysql-comma-separated-column-join-in-php-laravel-5example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-amazon-s3-file-upload-tutorial-part-1example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-amazon-s3-file-upload-tutorial-part-2example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/ajax-image-upload-example-with-validation-in-php-laravel-frameworkexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/simple-highcharts-chart-example-using-php-mysql-databaseexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-get-instagram-followers-count-using-jquery-ajaxexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-retrieve-number-of-twitter-followers-count-without-authentication-or-api-example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-twitter-api-using-thujohn-twitter-composer-package-tutorialexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-how-to-convert-fileimage-audio-video-extension-using-cloudconvert-apiexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/-how-to-set-datepicker-in-bootstrap</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-behance-api-tutorial-with-example-and-demoexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-multiple-file-uploading-dropzone-js-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/simple-add-remove-input-fields-dynamically-using-jquery-with-bootstrapexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-jquery-ajax-crop-image-before-upload-using-croppie-pluginexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-use-collapse-example-in-bootstrapexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/93?page=2</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/category/93?page=3</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-create-quick-backend-admin-panel-tutorialexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-install-composer-using-command-line-in-ubuntu-example.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/simple-php-jquery-ajax-crudinsert-update-delete-tutorial-example-with-source-codeexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-category-treeview-hierarchical-structure-example-with-demoexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-how-to-convert-html-file-to-pdf-using-dompdf-libraryexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-autocomplete-websites-with-domain-and-logo-using-clearbit-apiexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/laravel-5-multiple-markers-in-google-map-using-gmapsjsexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/angularjs-simple-image-upload-with-preview-example-in-phpexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/codeigniter-3-select2-ajax-autocomplete-from-database-example-with-demoexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/solved-access-not-configured-google-api-truncated-on-google-console-developerexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/how-to-integrate-google-map-using-gmapsjs-in-php-exampleexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://laravelhelper.monster/blog/php-how-to-implement-google-new-recaptcha-code-example-with-demoexample.html</loc>
+  <lastmod>2023-01-24T02:09:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
