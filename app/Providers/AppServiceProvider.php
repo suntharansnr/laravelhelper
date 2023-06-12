@@ -16,7 +16,7 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         View::composer('*',function($view){
-            $view->with(['social'=>Social::all(),'theme'=>Theme::first(),'main_category' => Category::where('parent_id', '=',0)->get()]);
+            $view->with(['social'=>Social::select('name','value')->get(),'theme'=>Theme::first(),'main_category' => Category::where('parent_id', '=',0)->select('name')->get()]);
           });
     }
 

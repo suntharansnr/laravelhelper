@@ -8,7 +8,7 @@
         <link rel="canonical" href="{{url()->current()}}" />
 
         <meta property="og:url" content="{{url()->current()}}">
-        <meta property="og:image" content="{{$post->image}}">
+        <meta property="og:image" content="{{asset($post->img_path)}}">
         <meta property="og:description" content="{{strip_tags(Str::limit($post->content,200))}}">
         <meta property="og:title" content="{{$post->title}}">
         <meta property="og:site_name" content="laravelhelper.xyz">
@@ -16,13 +16,13 @@
 
         <meta itemprop="name" content="{{$post->title}}">
         <meta itemprop="description" content="{{strip_tags(Str::limit($post->content,200))}}">
-        <meta itemprop="image" content="{{$post->image}}">
+        <meta itemprop="image" content="{{asset($post->img_path)}}">
 
         <meta name="twitter:card" content="summary">
         <meta name="twitter:url" content="{{url()->current()}}">
         <meta name="twitter:title" content="{{$post->title}}">
         <meta name="twitter:description" content="{{strip_tags(Str::limit($post->content,200))}}">
-        <meta name="twitter:image" content="{{$post->image}}">
+        <meta name="twitter:image" content="{{asset($post->img_path)}}">
 @endsection
 @section('css')
 <style media="screen">
