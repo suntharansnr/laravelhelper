@@ -7,7 +7,8 @@
         newCity: 'App\\Notifications\\NewCity',
         newState: 'App\\Notifications\\NewState',
         newCountry: 'App\\Notifications\\NewCountry',
-        newContinent: 'App\\Notifications\\NewContinent'
+        newContinent: 'App\\Notifications\\NewContinent',
+        newUserVisit: 'App\\Notifications\\NewUserVisit'
     };
 
     var notifications = [];
@@ -72,7 +73,7 @@
         } else if (notification.type === NOTIFICATION_TYPES.newProperty) {
             const propertyId = notification.data.property_id;
             to = `view/` + propertyId + to;
-        } else if (notification.type === NOTIFICATION_TYPES.newPost) {
+        } else if (notification.type === NOTIFICATION_TYPES.newPost || notification.type === NOTIFICATION_TYPES.newUserVisit) {
             const postSlug = notification.data.slug;
             to = `blog/` + postSlug + to;
         }
@@ -99,6 +100,9 @@
             text += `<strong>${name}</strong> added a state`;
         } else if (notification.type === NOTIFICATION_TYPES.newUser) {
             text += `<strong>${name}</strong> added a user`;
+        }
+        else if (notification.type === NOTIFICATION_TYPES.newUserVisit) {
+            text += `New user visit on your post ${notification.data.slug}`;
         }
         return text;
     }

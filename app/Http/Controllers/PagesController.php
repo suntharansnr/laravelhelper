@@ -3,33 +3,16 @@
 namespace App\Http\Controllers;
 
 use DB;
-use App\Property;
-use App\User;
-use App\Comment;
-use App\Contact;
-use App\Theme;
-use App\Photo;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Mail;
-use App\Mail\SendMailable;
 use Route;
 use App\Metatag;
-use Event;
-use App\Report;
 use App\Favorite;
-use App\Events\ActionDone;
-use Carbon\Carbon;
 use Auth;
 use App\Post;
-use App\Continent;
 use App\Category;
-use App\services\getchild;
-use Illuminate\Support\Arr;
 use App\services\helper;
-use App\Language;
-use Session;
+use App\Notifications\NewUserVisit;
 use Illuminate\Support\Str;
-use App\Slider;
 
 class PagesController extends Controller
 {
@@ -235,7 +218,10 @@ class PagesController extends Controller
                                             ->where('status','Accept')
                                             ->count();
         }
-
+        $noty_users = \App\Models\User::role('admin')->get();
+          foreach ($noty_users as $notifiable_id) {
+              $notifiable_id->notify(new NewUserVisit($post));
+          }
         return view('fronts.pages.showblog', compact('meta_tag', 'post', 'related','cat_data'));
     }
 
