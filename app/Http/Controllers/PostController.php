@@ -70,6 +70,10 @@ class PostController extends Controller
                              $category = $row->category ? $row->category->name : '-';
                              return $category;
                            })
+                         ->addColumn('views', function($row){
+                            $views = views($row)->count();;
+                            return $views;
+                          })
                          ->addColumn('posted_by', function($row){
                              $posted_by = $row->user ? $row->user->name : '-';
                              return $posted_by;

@@ -27,6 +27,7 @@
                                      <th scope="col">Content</th>
                                      <th scope="col">Category</th>
                                      <th scope="col">Posted by</th>
+                                     <th scope="col">Views</th>
                                      <th scope="col">Status</th>
                                      <th width="15%">Change status</th>
                                      <th width="15%">Action</th>
@@ -340,6 +341,7 @@ var app = app || {};
             {data: 'content', name: 'content'},
             {data: 'category', name: 'category'},
             {data: 'posted_by', name: 'posted_by'},
+            {data: 'views', name: 'views'},
             {data: 'status', name: 'status', orderable: false, searchable: false},
             {data: 'change_status', name: 'change_status', orderable: false, searchable: false},
             {data: 'action', name: 'action', orderable: false, searchable: false}

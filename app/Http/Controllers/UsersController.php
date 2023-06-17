@@ -7,6 +7,8 @@ use App\Metatag;
 use Auth;
 use DataTables;
 use App\Notifications\NewUser;
+use Carbon\Carbon;
+use Illuminate\Support\Facades\DB;
 use Spatie\Permission\Models\Role;
 use Validator;
 class UsersController extends Controller
@@ -184,4 +186,57 @@ class UsersController extends Controller
         return auth()->user()->unreadNotifications()->toArray();
     }
 
+    public function AdminNotifications(Request $request){
+        $notifications = DB::table('notifications')
+                           ->where('type','=','App\\Notifications\\NewUserVisit')
+                           ->where('notifiable_id',Auth::user()->id)
+                           ->orderBy('created_at', 'desc')
+                           ->get();
+        if ($request->ajax()){
+          $data = $notifications;
+          return Datatables::of($data)
+                  ->addIndexColumn()
+                  ->addColumn('id', function( $row){
+                        return $row->id;
+                  })
+                  ->addColumn('message', function( $row){
+                    $message_data = json_decode($row->data, true);
+                    return 'New user visit on your post'.'<a href="/blog/'.$message_data['slug'].'">'.$message_data['slug'].'</a>';
+                  })
+                  ->addColumn('time', function( $row){
+                    $time = Carbon::parse($row->created_at)->diffForHumans();
+                    return $time;
+                  })
+                  ->addColumn('action', function($row){
+                        $btn = '<a href="javascript:void(0)" class="btn btn-warning btn-sm editUser" data-toggle="tooltip" data-id="'.$row->id.'" data-original-title="Edit"><i class="fa fa-edit"></i></a>';
+                        if ($row->id == Auth::user()->id) {
+                            $btn = $btn."&nbsp; ".'<button type="button" class="btn btn-danger btn-sm" name="button" disabled title="cant delete logged in user"><i class="fa fa-times"></i></button>';
+                        } else {
+                            $btn = $btn."&nbsp; ".'<a href="javascript:void(0)" data-toggle="tooltip"  data-id="'.$row->id.'" data-original-title="Delete" class="btn btn-danger btn-sm deleteProduct"><i class="fa fa-times"></i></a>';
+                        }
+                        $btn = $btn."&nbsp; ".'<a role="button" href="#modalForm" class="btn btn-info btn-sm" data-toggle="modal" data-href="users/show/'.$row->id.'" data-backdrop="static" data-keyboard="false"><i class="fa fa-exclamation"></i></a>';
+                        if ($row->id == Auth::user()->id) {
+                                    if (1) {
+                                      $btn = $btn."&nbsp; ".'<input data-id="'.$row->id.'"  checked id="status_update" title="cant update logged in user status" disabled class="toggle-class btn-sm" type="checkbox" data-onstyle="success" data-offstyle="danger" data-toggle="toggle" data-on="Active" data-off="InActive" data-size="small">';
+                                    }
+                                    else {
+                                    $btn = $btn."&nbsp; ".'<input data-id="'.$row->id.'" id="status_update" title="cant update logged in user status" disabled class="toggle-class btn-sm" type="checkbox" data-onstyle="success" data-offstyle="danger" data-toggle="toggle" data-on="Active" data-off="InActive" data-size="small">';
+                                    }
+                        }
+                        else {
+                                    if (1) {
+                                      $btn = $btn."&nbsp; ".'<input data-id="'.$row->id.'" checked id="status_update" class="toggle-class btn-sm" type="checkbox" data-onstyle="success" data-offstyle="danger" data-toggle="toggle" data-on="Active" data-off="InActive" data-size="small">';
+                                    }
+                                    else {
+                                    $btn = $btn."&nbsp; ".'<input data-id="'.$row->id.'" id="status_update" class="toggle-class btn-sm" type="checkbox" data-onstyle="success" data-offstyle="danger" data-toggle="toggle" data-on="Active" data-off="InActive" data-size="small">';
+                                    }
+                        }
+
+                        return $btn;
+                  })
+                  ->rawColumns(['message','action','position'])
+                  ->make(true);
+          }
+          return view('admin.users.notifications');
+    }
 }

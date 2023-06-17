@@ -183,7 +183,7 @@ class PagesController extends Controller
         $routeName = Route::currentRouteName();
         $meta_tag = metatag::where('route', '=', $routeName)->firstOrFail();
 
-        $posts = Post::select('post_type','video_path','img_path','title','updated_at','content','slug')->where('status','Accept')
+        $posts = Post::where('status','Accept')
                      ->with('user')->paginate(6);
 
         return view('fronts.pages.blog', compact('meta_tag', 'posts'));

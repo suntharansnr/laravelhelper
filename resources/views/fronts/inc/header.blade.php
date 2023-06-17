@@ -2,7 +2,7 @@
   <div class="container">
   <nav class="navbar navbar-expand-lg shrink shadow fixed-top" id="banner">
        <!-- Brand -->
-      <a class="navbar-brand" href="{{route('radios')}}"><img src="{{asset($theme->logo)}}" alt="" class="img-fluid"></a>
+       <a class="navbar-brand" href="{{route('homepage')}}"><img src="{{asset($theme->logo)}}" alt="Laravelhelper" class="img-fluid"></a>
       <!-- Toggler/collapsibe Button -->
       <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
