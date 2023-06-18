@@ -2,6 +2,20 @@
   <div class="container-fluid pt-2 pb-2">
       <p class="text-white">{{$theme->footer_left_text}}</p>
   </div>
+  <div class="container-fluid">
+    <form id="my-form">
+      <div class="row justify-content-center no-gutters">
+        <div class="col-md-3">
+          <div class="form-group">
+            <input type="email" class="form-control rounded-0" name="email" required>
+          </div>
+        </div>
+        <div class="col-md-3">
+            <button type="submit" class="btn btn-primary btn-block rounded-0">Submit</button>
+        </div>
+    </form>
+    </div>
+  </div>
 </section>
 <style>
   .hr-foot {

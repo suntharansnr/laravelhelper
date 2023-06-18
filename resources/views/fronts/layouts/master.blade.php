@@ -113,5 +113,32 @@
   @yield('script')
   @include('fronts.inc.toastr')
   @yield('js')
+  <script>
+    $("#my-form").submit(function(e) {
+        e.preventDefault();
+        // Serialize the form data
+        var formData = $(this).serialize();
+        $.ajaxSetup({
+          headers: {
+              'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+          }
+        });
+        $.ajax({
+            url: '{{route('subscribe')}}',
+            method: "POST",
+            data: formData,
+            success: function(response) {
+                // Handle the successful response
+                console.log(response);
+                toastr.success('Subscribed successfuly');
+                document.getElementById("my-form").reset();
+            },
+            error: function(xhr, status, error) {
+                // Handle the error response
+                toastr.error(xhr.responseText);
+            }
+        })
+    })
+  </script>
 </body>
 </html>

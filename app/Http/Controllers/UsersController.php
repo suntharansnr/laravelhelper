@@ -190,7 +190,7 @@ class UsersController extends Controller
         $notifications = DB::table('notifications')
                            ->where('type','=','App\\Notifications\\NewUserVisit')
                            ->where('notifiable_id',Auth::user()->id)
-                           ->orderBy('created_at', 'desc')
+                           ->orderBy('created_at', 'DESC')
                            ->get();
         if ($request->ajax()){
           $data = $notifications;
@@ -201,7 +201,7 @@ class UsersController extends Controller
                   })
                   ->addColumn('message', function( $row){
                     $message_data = json_decode($row->data, true);
-                    return 'New user visit on your post'.'<a href="/blog/'.$message_data['slug'].'">'.$message_data['slug'].'</a>';
+                    return 'New user visit on your post '.'<a href="/blog/'.$message_data['slug'].'">'.$message_data['slug'].'</a>';
                   })
                   ->addColumn('time', function( $row){
                     $time = Carbon::parse($row->created_at)->diffForHumans();

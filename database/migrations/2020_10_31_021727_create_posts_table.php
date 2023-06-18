@@ -31,6 +31,8 @@ class CreatePostsTable extends Migration
             $table->bigInteger('category_id')->unsigned();
             $table->foreign('category_id')->references('id')->on('categories')->onDelete('cascade');
 
+            $table->integer('views')->default(0);
+
             $table->timestamps();
         });
     }

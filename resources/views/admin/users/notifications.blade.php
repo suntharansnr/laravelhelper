@@ -45,6 +45,7 @@
         processing: true,
         serverSide: true,
         responsive: true,
+        orderable: false,
         ajax: "{{ route('admin.notifications') }}",
         columns: [
             {data: 'id', name: 'id'},

@@ -34,7 +34,7 @@
            <ul class="list-group list-group-flush">
              <li class="list-group-item">
                <!-- <p style="font-size:1rem">{{ Illuminate\Support\Str::limit(strip_tags($post->content,200)) }}</p> -->
-               <h6 style="font-weight:500;color:#261630">Total views:{{views($post)->count()}}  <a class="stretched-link" href="{{asset('/blog/'.$post->slug)}}" style="text-decoration:none"><i class="far fa-hand-point-right float-right"> Read more</i></a></h6>
+               <h6 style="font-weight:500;color:#261630">Total views:{{$post->views_count}}  <a class="stretched-link" href="{{asset('/blog/'.$post->slug)}}" style="text-decoration:none"><i class="far fa-hand-point-right float-right"> Read more</i></a></h6>
               </li>
            </ul>
          </div>

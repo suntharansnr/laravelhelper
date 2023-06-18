@@ -277,6 +277,8 @@ Route::group(['prefix' => 'slider','middleware'=>'auth'], function () {
 
 //front end section routes start
 Route::get('/', 'PagesController@homepage')->name('homepage');
+Route::get('/update-views', 'PagesController@updateViews')->name('updateviews');
+Route::post('/subscribe', 'PagesController@subscribe')->name('subscribe');
 Route::get('/service','PagesController@service')->name('service');
 Route::get('/view/{id}', 'PagesController@view')->name('property.view');
 Route::get('/contact', 'PagesController@contact')->name('contact');

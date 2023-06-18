@@ -10,8 +10,10 @@ use App\Favorite;
 use Auth;
 use App\Post;
 use App\Category;
+use App\Models\Subscription;
 use App\services\helper;
 use App\Notifications\NewUserVisit;
+use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Str;
 
 class PagesController extends Controller
@@ -197,11 +199,9 @@ class PagesController extends Controller
         $post = Post::whereSlug($slug)
                     ->where('status','Accept')
                     ->firstorfail();
-
-        $expiresAt = now()->addHours(24);
-        views($post)->cooldown($expiresAt)
-            ->record();
-
+        
+        $post->views_count = $post->views_count + 1;
+        $post->save();
 
         $related = Post::where('category_id', $post->category_id)
                        ->where('status','Accept')
@@ -230,5 +230,26 @@ class PagesController extends Controller
                     ->where('status','Accept')
                     ->paginate(6);
         return view('fronts.pages.category',compact('posts'));
+    }
+
+    public function updateViews(){
+        $posts = Post::all();
+        foreach($posts as $post){
+            $post->views_count = views($post)->count();
+            $post->save();
+        }
+        echo "done";
+    }
+
+    public function subscribe(Request $request){
+        $validator = Validator::make($request->all(), [
+            'email' => 'required|email|unique:subscriptions,email',
+          ]);
+          if($validator->passes()){
+              Subscription::create($request->all());
+          }
+          else{
+              return response()->json(['error'=>$validator->errors()->all()]);
+          }
     }
 }
