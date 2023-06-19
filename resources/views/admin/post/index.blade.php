@@ -341,7 +341,7 @@ var app = app || {};
             {data: 'content', name: 'content'},
             {data: 'category', name: 'category'},
             {data: 'posted_by', name: 'posted_by'},
-            {data: 'views', name: 'views'},
+            {data: 'views_count', name: 'views_count'},
             {data: 'status', name: 'status', orderable: false, searchable: false},
             {data: 'change_status', name: 'change_status', orderable: false, searchable: false},
             {data: 'action', name: 'action', orderable: false, searchable: false}

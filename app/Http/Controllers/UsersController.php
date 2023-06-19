@@ -190,7 +190,7 @@ class UsersController extends Controller
         $notifications = DB::table('notifications')
                            ->where('type','=','App\\Notifications\\NewUserVisit')
                            ->where('notifiable_id',Auth::user()->id)
-                           ->orderBy('created_at', 'DESC')
+                           ->orderBy('created_at','DESC')
                            ->get();
         if ($request->ajax()){
           $data = $notifications;
