@@ -200,8 +200,16 @@ class PagesController extends Controller
                     ->where('status','Accept')
                     ->firstorfail();
         
-        $post->views_count = $post->views_count + 1;
-        $post->save();
+        if(Auth::check()){
+            if(!Auth::user()->isAdmin()){
+                $post->views_count = $post->views_count + 1;
+                $post->save();
+            }
+        }
+        else{
+            $post->views_count = $post->views_count + 1;
+            $post->save();
+        }
 
         $related = Post::where('category_id', $post->category_id)
                        ->where('status','Accept')

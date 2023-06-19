@@ -7,10 +7,11 @@ $.ajax({
    url: filename,
    contentType: false,
    success: function (data) {
-       $("#" + content).html(data);
        $('.loading').hide();
+       $("#" + content).html(data);
    },
    error: function (xhr, status, error) {
+       $('.loading').hide();
        alert(xhr.responseText);
    }
 });
