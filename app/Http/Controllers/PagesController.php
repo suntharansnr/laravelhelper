@@ -123,6 +123,13 @@ class PagesController extends Controller
         return view('front.pages.trending', compact('meta_tag', 'trendings'));
     }
 
+    //this is the view showing trending radios sorted by favorite count
+    public function popular(Request $request)
+    {
+        $posts = Post::orderBy('views_count','desc')->limit(12)->get();
+        return view('fronts.pages.popular', compact('posts'));
+    }
+
     //this is the view showing showing my favorites
     public function myfavorite(Request $request)
     {
@@ -202,8 +209,8 @@ class PagesController extends Controller
         
         if(Auth::check()){
             if(!Auth::user()->isAdmin()){
-                $post->views_count = $post->views_count + 1;
-                $post->save();
+            $post->views_count = $post->views_count + 1;
+            $post->save();
             }
         }
         else{

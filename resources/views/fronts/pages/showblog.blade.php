@@ -93,7 +93,7 @@
 
 @section('content')
 <div class="container-fluid">
-  <h3 class="text-center"> <a>{{$post->title}} </a> </h3>
+  <h3 class="text-center"> <a>{{$post->title}} </a> <button class="badge badge-info"></button> </h3>
   <div class="container-fluid blog-container" style="background-color:#ffffff;margin-top:30px;padding:20px;padding-right:10px !important;">
     <div class="row">
       <div class="col-md-8 pt-4">
@@ -173,7 +173,39 @@
     @endforeach
   </div>
 </div> -->
+
+
+<div class="modal fade bd-example-modal-lg" id="subscribeModal" tabindex="-1" role="dialog" data-backdrop="static">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content" id="modal_content">
+          <div class="modal-header">
+              <h5 class="modal-title">Subscribe here!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+              </button>
+         </div>
+         <div class="modal-body">
+                  <form id="my-form">
+                        <div class="form-group">
+                          <input type="email" class="form-control rounded-0" name="email" required placeholder="Email Address">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block rounded-0">Submit</button>
+                  </form>
+         </div>
+    </div>
+  </div>
+</div>
+
 @endsection
 @section('js')
+<script>
+  $(document).ready(function(){
+    var is_modal_show = sessionStorage.getItem('isShown');
+    if(is_modal_show != '☺'){
+      $("#subscribeModal").modal('show');
+      sessionStorage.setItem('isShown','☺');
+    }
+  });
+</script>
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 @endsection

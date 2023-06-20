@@ -302,6 +302,7 @@ Route::get('/radios/local', 'PagesController@radioslocal')->name('radio.local');
 Route::get('/radios/region', 'PagesController@radiosregion')->name('radio.region');
 Route::get('/radios/recents', 'PagesController@recent')->name('radio.recent');
 Route::get('/radios/trending', 'PagesController@trending')->name('radio.trending');
+Route::get('/blogs/popular', 'PagesController@popular')->name('blog.popular');
 Route::get('/radios/region/{continent}', 'PagesController@continentview')->name('radio.continentview');
 Route::get('/radios/country/{country}', 'PagesController@countryview')->name('radio.countryview');
 Route::get('/radios/state/{state}', 'PagesController@stateview')->name('radio.stateview');

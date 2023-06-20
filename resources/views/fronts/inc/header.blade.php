@@ -14,6 +14,9 @@
         <li class="nav-item">
           <a class="nav-link">Learn laravel from begginer level to master level on laravel.xyz</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{route('blog.popular')}}">Popular posts</a>
+        </li>
       </ul>
       </div>
   </nav>
