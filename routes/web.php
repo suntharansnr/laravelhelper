@@ -77,6 +77,17 @@ Route::group(['prefix' => 'users','middleware'=>'auth'], function () {
 });
 //User management section routes ends
 
+//User management section routes starts
+Route::group(['prefix' => 'subscriptions','middleware'=>'auth'], function () {
+    Route::get('/', 'SubscriptionController@index')->name('subscriptions.index');
+    Route::match(['get', 'put'], 'edit/{id}', 'SubscriptionController@edit')->name('subscriptions.edit');
+    Route::get('show/{id}', 'SubscriptionController@show')->name('subscriptions.show');
+    Route::delete('delete/{id}', 'SubscriptionController@destroy')->name('subscriptions.delete');
+    Route::post('store', 'SubscriptionController@store')->name('subscriptions.store');
+    Route::get('Status_Update','SubscriptionController@Status_Update')->name('Status_Update');
+});
+//User management section routes ends
+
 //radio details section routes starts
 Route::group(['prefix' => 'radio','middleware'=>'auth'], function () {
     Route::get('/', 'RadioController@index')->name('radio.index');
@@ -300,20 +311,15 @@ Route::get('/home/radio', 'PagesController@radios')->name('radios');
 Route::get('/blog/category/{category_id}', 'PagesController@category')->name('blogs.category');
 Route::get('/radios/local', 'PagesController@radioslocal')->name('radio.local');
 Route::get('/radios/region', 'PagesController@radiosregion')->name('radio.region');
-Route::get('/radios/recents', 'PagesController@recent')->name('radio.recent');
+Route::get('/blogs/recent', 'PagesController@recent')->name('blog.recent');
 Route::get('/radios/trending', 'PagesController@trending')->name('radio.trending');
 Route::get('/blogs/popular', 'PagesController@popular')->name('blog.popular');
-Route::get('/radios/region/{continent}', 'PagesController@continentview')->name('radio.continentview');
-Route::get('/radios/country/{country}', 'PagesController@countryview')->name('radio.countryview');
-Route::get('/radios/state/{state}', 'PagesController@stateview')->name('radio.stateview');
-Route::get('/radios/city/{city}', 'PagesController@cityview')->name('radio.cityview');
 Route::get('/radios/language', 'PagesController@language')->name('radio.language');
 Route::get('/radios/language/{language}', 'PagesController@languageview')->name('radio.languageview');
 Route::get('/radios/{language}/{category}', 'PagesController@langcatview')->name('radio.langcatview');
 Route::get('/Radio/{radio}', 'PagesController@radioview')->name('radio.view');
 
-Route::get('/getsearch', 'PagesController@getsearch')->name('radio.getsearch');
-Route::get('/postsearch', 'PagesController@postsearch')->name('radio.postsearch');
+Route::get('/postsearch', 'PagesController@postsearch')->name('post.postsearch');
 
 Route::group(['middleware'=>'auth'],function() {
 Route::get('/radios/favorite', 'PagesController@myfavorite')->name('favorites.index');

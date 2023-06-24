@@ -149,6 +149,12 @@ class PermissionTableSeeder extends Seeder
            'type-edit',
            'type-delete',
            'type-status',
+
+           'subscription-list',
+           'subscription-create',
+           'subscription-edit',
+           'subscription-delete',
+           'subscription-status',
         ];
         foreach ($permissions as $permission) {
              Permission::create(['name' => $permission]);

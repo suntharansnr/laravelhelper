@@ -40,7 +40,7 @@
 <div class="container-fluid mainwrappad">
   <div class="infinite-scroll">
     <div class="row">
-       @if ($posts->count() != 0)
+       @if(isset($posts) && $posts->count() != 0)
        @foreach ($posts as $post)
        <div class="col-md-4" style="padding-top:5px;padding-bottom:5px">
          <div class="card shadow">
@@ -77,3 +77,4 @@
 @endsection
 @section('js')
 @endsection
+☺

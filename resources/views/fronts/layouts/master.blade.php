@@ -44,6 +44,11 @@
     #myBtn:hover {
       background-color: #555; /* Add a dark-grey background on hover */
     }
+    .search_result{
+      position: absolute !important;
+      margin-left: 555px;
+      margin-top: 225px;
+    }
     </style>
     @yield('extra_css')
     <link rel="shortcut icon" href="{{asset('assets/images/naq.jpg')}}">
@@ -139,6 +144,35 @@
             }
         })
     })
+
+    function searchBlog(){
+    const searchValue = $('#search').val();
+    $.ajax({
+        url: '{{asset('/postsearch/?q=')}}' + searchValue,
+        type: 'GET',
+        dataType: 'json', // added data type
+        success: function(res) {
+            $('#searchResults').html('')
+            console.log(res.length);
+            if(res && res.length > 0){
+                $('#searchBox').css('display', 'block');
+            }
+            else{
+                $('#searchBox').css('display', 'none');
+            }
+            $.each(res, function(i, post) {
+                    $('#searchResults').append('<a href="/blog/'+post.slug+'"><li>' + post.title + '</li></a>');
+            });
+        }
+    })
+    // Close search results box on click outside
+    $(document).on('click', function(e) {
+        const searchBox = $('#searchBox');
+        if (!searchBox.is(e.target) && searchBox.has(e.target).length === 0) {
+            searchBox.css('display', 'none');
+        }
+    });
+}
   </script>
 </body>
 </html>

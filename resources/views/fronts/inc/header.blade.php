@@ -10,14 +10,25 @@
 
       <!-- Navbar links -->
       <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-        <li class="nav-item">
+      <ul class="navbar-nav ml-auto">
+        {{-- <li class="nav-item">
           <a class="nav-link">Learn laravel from begginer level to master level on laravel.xyz</a>
-        </li>
+        </li> --}}
         <li class="nav-item">
           <a class="nav-link" href="{{route('blog.popular')}}">Popular posts</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{route('blog.recent')}}">Recently visited</a>
+        </li>
       </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search here..." aria-label="Search" id="search" onkeyup="searchBlog()">
+      </form>
+      <div class="card search_result" id="searchBox" style="display: none">
+        <div class="card-body">
+          <div id="searchResults"></div>
+        </div>
+      </div>
       </div>
   </nav>
 </header>
