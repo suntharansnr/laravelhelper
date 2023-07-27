@@ -44,6 +44,8 @@ class CreateMetatagsTable extends Migration
           $table->string('twitter:description',2048)->nullable();
           $table->string('twitter:image')->nullable();
 
+//views count of the page
+          $table->integer('views')->default(0);
           $table->timestamps();
         });
     }

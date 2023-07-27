@@ -228,4 +228,27 @@ class PagesController extends Controller
             'redirect_url' => url('contact')
         ]);
     }
+
+    public function about()
+    {
+        return redirect("https://rajvarman.laravelhelper.monster");
+        // $routeName = Route::currentRouteName();
+        // $meta_tag = metatag::where('route', '=', $routeName)->firstOrFail();
+        // return view('fronts.pages.aboutus', compact('meta_tag'));
+    }
+    public function showabout($slug)
+    {
+        $about = About::whereslug($slug)->firstOrFail();
+        return view('fronts.pages.showabout', compact('meta_tag', 'about'));
+    }
+
+    public function faq()
+    {
+        $routeName = Route::currentRouteName();
+        $meta_tag = metatag::where('route', '=', $routeName)->firstOrFail();
+
+        $faqs = Faq::wherestatus('1')->latest()->get();
+        $faq_chunk = ($faqs->count() / 2);
+        return view('fronts.pages.faq', compact('meta_tag', 'faqs', 'faq_chunk'));
+    }
 }

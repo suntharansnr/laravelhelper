@@ -292,10 +292,14 @@ Route::get('/update-views', 'PagesController@updateViews')->name('updateviews');
 Route::post('/subscribe', 'PagesController@subscribe')->name('subscribe');
 Route::get('/service','PagesController@service')->name('service');
 Route::get('/view/{id}', 'PagesController@view')->name('property.view');
+
+Route::group(['middleware'=>'views'], function () {
 Route::get('/contact', 'PagesController@contact')->name('contact');
 Route::get('/about', 'PagesController@about')->name('about');
 Route::get('/about/{slug}', 'PagesController@showabout')->name('about.show');
 Route::get('/faq', 'PagesController@faq')->name('faq');
+});
+
 Route::get('/search', 'PagesController@advancesearch')->name('advancesearch');
 Route::POST('/comment', 'CommentController@store')->name('comments.store');
 Route::delete('comment/{id}', 'CommentController@delete')->name('comment.delete');

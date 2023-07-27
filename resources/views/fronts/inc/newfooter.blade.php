@@ -11,8 +11,8 @@
           <h1 style="border-bottom:2px solid #415D78;padding-bottom:10px;font-weight:600;color:#fff">Links</h1>
           <p><a href="{{route('about')}}" style="text-decoration:none !important;color:#fff">About us</a></p>
           <p><a href="{{route('contact')}}" style="text-decoration:none !important;color:#fff">Contact us</a></p>
-          <p><a href="{{route('faq')}}" style="text-decoration:none !important;color:#fff">Faq</a></p>
-          <p><a href="{{route('blog')}}" style="text-decoration:none !important;color:#fff">Blog</a></p>
+          <!-- <p><a href="{{route('faq')}}" style="text-decoration:none !important;color:#fff">Faq</a></p>
+          <p><a href="{{route('blog')}}" style="text-decoration:none !important;color:#fff">Blog</a></p> -->
         </div>
 
         <div class="col-lg-3 col-md-4 col-sm-12">
