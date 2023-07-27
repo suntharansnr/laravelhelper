@@ -10,6 +10,7 @@ use App\Favorite;
 use Auth;
 use App\Post;
 use App\Category;
+use App\Contact;
 use App\Models\Subscription;
 use App\services\helper;
 use App\Notifications\NewUserVisit;
@@ -204,5 +205,27 @@ class PagesController extends Controller
         } else {
             return response()->json(['error' => $validator->errors()->all()]);
         }
+    }
+
+    public function contact(Request $request)
+    {
+        $routeName = Route::currentRouteName();
+        $meta_tag = metatag::where('route', '=', $routeName)->firstOrFail();
+        return view('fronts.pages.contact', compact('meta_tag'));
+    }
+    public function store(Request $request)
+    {
+        $contact = new Contact();
+        $contact->name = $request->name;
+        $contact->email = $request->email;
+        $contact->subject = $request->subject;
+        $contact->message = $request->message;
+        $contact->save();
+
+        return response()->json([
+            'message' => 'success',
+            'fail' => false,
+            'redirect_url' => url('contact')
+        ]);
     }
 }

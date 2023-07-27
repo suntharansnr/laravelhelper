@@ -25,7 +25,7 @@
 @endsection
 @section('content')
   <!-- Masthead -->
-  <header class="masthead text-white text-center">
+  <!-- <header class="masthead text-white text-center">
       <div class="overlay"></div>
       <div class="container">
           <div class="row">
@@ -41,7 +41,7 @@
               </div>
           </div>
       </div>
-  </header>
+  </header> -->
   <!-- Masthead Finish-->
   <!-- Masthead -->
   <style>
@@ -133,7 +133,7 @@
   <!-- Masthead -->
 
  <!-- Masthead -->
- <header class="masthead2 text-left mainwrappad">
+ <!-- <header class="masthead2 text-left mainwrappad">
         <div class="overlay2"></div>
         <div class="container">
            <div class="row">
@@ -172,7 +172,7 @@
              </div>
            </div>
         </div>
-    </header>
+    </header> -->
     <!-- Masthead Finish-->
     <!-- Masthead -->
     <style>
@@ -212,9 +212,9 @@
     <!-- Masthead -->
            
 </div>
-<div class="container-fluid" style="padding-left:0px;padding-right:0px;padding-bottom:0px;">
+<!-- <div class="container-fluid" style="padding-left:0px;padding-right:0px;padding-bottom:0px;">
    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3933.1418936009527!2d80.01311708397378!3d9.668915188438344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afe540184d312e5%3A0xd2ee2d3f9c39fb4f!2sPeoples%20Bank%2C%20Stanley%20Rd%2C%20Jaffna!5e0!3m2!1sen!2slk!4v1595346661807!5m2!1sen!2slk" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
+</div> -->
 
 <style>
   .rajsha .card:hover i,.rajsha .card:hover h4 .card{

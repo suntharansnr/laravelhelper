@@ -339,3 +339,5 @@ Route::get('/optimize-clear', function() {
     return 'optimize cleared';
 });
 //optimize clear end
+
+Route::get('/example', 'ExampleController@index')->name('example.index');

@@ -1,9 +1,9 @@
 <div class="container-fluid mainwrappad" style="background-color:#f7f7f7;position:relative;">
-<h1 align="center">Contact<span style="color:#f03271"> us</span></h1>
+<h1 align="center">Contact<span style="color:#261630"> us</span></h1>
 <br>
 <div class="container">
 <div class="row shadow">
-  <div class="col-md-3" style="background-color: #f03271">
+  <div class="col-md-3" style="background-color: #261630">
     <div class="contact-info">
       <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
       <h2>Contact Us</h2>
@@ -74,7 +74,7 @@ padding: 3%;
 font-weight:600;
 }
 .contact-form button{
-background: #f03271;
+background:#261630;
 color: #fff;
 font-weight: 600;
 }
