@@ -129,12 +129,13 @@ class PagesController extends Controller
         $meta_tag = metatag::where('route', '=', $routeName)->firstOrFail();
 
         $posts = Post::where('status', 'Accept')
+            ->orderBy('id','DESC')
             ->with('user')->paginate(6);
 
         return view('fronts.pages.blog', compact('meta_tag', 'posts'));
     }
 
-    public function showblog($slug)
+    public function showblog($slug,Request $request)
     {
         $routeName = Route::currentRouteName();
         $meta_tag = metatag::where('route', '=', $routeName)->firstOrFail();
@@ -174,7 +175,12 @@ class PagesController extends Controller
         foreach ($noty_users as $notifiable_id) {
             $notifiable_id->notify(new NewUserVisit($post));
         }
-        return view('fronts.pages.showblog', compact('meta_tag', 'post', 'related', 'cat_data'));
+
+        $comments = $post->comments()->simplePaginate(40);
+        if ($request->ajax())
+        return view('fronts.pages.ajaxcomment', compact('meta_tag', 'post', 'related', 'cat_data','comments'));
+        else
+        return view('fronts.pages.showblog', compact('meta_tag', 'post', 'related', 'cat_data','comments'));
     }
 
     public function category($category_id)

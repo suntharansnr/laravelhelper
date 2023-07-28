@@ -120,7 +120,7 @@ class HomeController extends Controller
           $suspenduserscount = $suspendusers->count();
         }
         if(Auth::user()->isUser()){
-                return view('front.pages.dashboard');
+                return view('admin.home',compact('pageTitle','pageViews','url','pages','pageViews','type','sessions1','browser','sessions','dates','visitors','top_browser','prop','countprop','pro','countpro','pror','actusercount','suspenduserscount','countrequest','prod','countdeny','proa','countproa','usercount','result'));
         }
         else{
                 return view('admin.home',compact('pageTitle','pageViews','url','pages','pageViews','type','sessions1','browser','sessions','dates','visitors','top_browser','prop','countprop','pro','countpro','pror','actusercount','suspenduserscount','countrequest','prod','countdeny','proa','countproa','usercount','result'));

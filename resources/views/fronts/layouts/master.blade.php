@@ -89,6 +89,8 @@
   <script type="text/javascript" src="{{asset('assets/front/js/owl-carousel.js')}}"></script>
   <script type="text/javascript" src="{{asset('assets/front/js/nav.js')}}"></script>
   <script src="{{asset('assets/plugins/toastr/toastr.min.js')}}"></script>
+  <script src="{{asset('assets/plugins/parsleyjs/parsley.min.js')}}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jscroll/2.4.1/jquery.jscroll.min.js" integrity="sha512-51l8tSwY8XyM6zkByW3A0E36xeiwDpSQnvDfjBAzJAO9+O1RrEcOFYAs3yIF3EDRS/QWPqMzrl6t7ZKEJgkCgw==" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
   <script type="text/javascript">

@@ -92,11 +92,16 @@
 @endsection
 
 @section('content')
+<div class="container text-center pt-2 pb-2 shadow" style="margin-top: 100px;background-color:#55acee;width:50%">
+<a href="https://backendeasysale.laravelhelper.monster/ad/103/laravel-real-estate-site-for-sale-with-admin-panel-at-20" class="link-stretched text-decoration-none text-white">
+  <h3>Looking for ready made laravel scripts</h3>
+</a>
+</div>
 <div class="container-fluid">
   <h3 class="text-center"> <a>{{$post->title}} </a> <button class="badge badge-info"></button> </h3>
   <div class="container-fluid blog-container" style="background-color:#ffffff;margin-top:30px;padding:20px;padding-right:10px !important;">
     <div class="row">
-      <div class="col-md-8 pt-4">
+      <div class="col-md-9 pt-4">
         <div class="row">
           <div class="col-md-6 col-sm-12">
             <h6 class="float-left" style="font-size:1rem">Posted on:{{date('d-M-Y H:i:s A', strtotime($post->updated_at))}}</h6>
@@ -120,8 +125,35 @@
         <div class="post-description">
           {!! $post->content !!}
         </div>
+
+      <div class="row" style="padding:0px !important">
+        <div class="col-md-12" style="padding-top:10px">
+          <div class="articles" id="content">
+              @include('fronts.pages.ajaxcomment')
+          </div>
+          <hr/>
+          @if (Auth::user())
+            <h4>Add comment</h4>
+            <form id="frm">
+                @csrf
+                <div class="form-group">
+                    <textarea name="body" class="form-control rounded-0" rows="5" cols="80"></textarea>
+                    <input type="hidden" name="post_id" value="{{ $post->id }}" />
+                </div>
+                <div class="form-group text-center">
+                    <button type="button" align="center" class="btn btn-info btn-small rounded-0" id="submit">Post Comment</button>
+                </div>
+            </form>
+          @else
+            <h4 style="margin-bottom:0px">Please login to comment <span><a href="{{route('login')}}" class="badge badge-info badge-small">login</a></span> </h4>
+          @endif
+        </div>
+        <div class="col-md-4" align="right">
+        </div>
       </div>
-      <div class="col-md-4">
+
+      </div>
+      <div class="col-md-3">
          <div class="card shadow"> 
               <ul class="list-group list-group-flush">
                 @foreach($cat_data as $category)
@@ -196,6 +228,35 @@
   </div>
 </div>
 
+<div class="modal fade bd-example-modal-lg" id="ajaxModel" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content" id="modal_content" style="padding:0px !important;">
+               <div class="col-md-12" style="padding:0px !important;">
+                     <div class="card mb-3 rounded-0 shadow-lg" style="margin-bottom:0px !important;">
+                       <div class="card-header">
+                         <h3 id="form-add-edit"><i class="fa fa-edit"> Edit comment</i>
+                          <span class="float-right">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                            </button>
+                          </span> </h3>
+                       </div>
+                       <div class="card-body">
+                         <form id="editfrm">
+                           <div class="form-group">
+                             <textarea name="body" class="form-control rounded-0" rows="5" cols="80" id="edit_body"></textarea>
+                             <input type="hidden" name="comment_id" value="" id="edit_comment_id"/>
+                           </div>
+                           <div class="form-group">
+                             <button type="button"class="btn btn-info btn-small rounded-0 editSubmit">Edit Comment</button>
+                           </div>
+                         </form>
+                       </div>
+                     </div><!-- end card-->
+               </div>
+          </div>
+        </div>
+   </div>
 @endsection
 @section('js')
 <script>
@@ -208,4 +269,268 @@
   });
 </script>
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+<script type="text/javascript">
+  $('#report').click(function (e) {
+      e.preventDefault();
+      // Serialize the entire form:
+      var formdata = new FormData(this.form);
+      $.ajax(
+        {
+        url: "{{ route('report.store') }}",
+        type: "POST",
+        data: formdata,
+        processData: false,
+        contentType: false,
+        dataType: 'json',
+        success: function (data) {
+            $('#reportfrm').trigger("reset");
+            $('#exampleModalCenter').modal('hide');
+            toastr.success('success', 'Thank you for your concern');
+        },
+        error: function (data) {
+            console.log('Error:', data);
+        }
+    });
+  });
+  </script>
+
+  <script type="text/javascript">
+  $('body').on('click', '.editcomment', function () {
+      $('#ajaxModel').modal('show');
+      var comment_id = $(this).data("id");
+      $.get("{{asset("")}}comment/edit" +'/' + comment_id, function (data) {
+          $('#edit_body').val(data.body);
+          $('#edit_comment_id').val(data.id);
+      })
+  });
+  </script>
+
+
+  <script type="text/javascript">
+         jQuery(document).ready(function(){
+             $('body').on('click', '.editSubmit', function(e) {
+               e.preventDefault();
+               $('.loading').show();
+               $.ajaxSetup({
+                 headers: {
+                   'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                 }
+               });
+               $.ajax({
+                  url: "{{route('comment.update')}}",
+                  method: 'post',
+                  data: {
+                     body: jQuery('#edit_body').val(),
+                     id: jQuery('#edit_comment_id').val()
+                  },
+                  success: function (data) {
+                      $('.loading').hide();
+                      $('#editfrm').trigger("reset");
+                      $('#ajaxModel').modal('hide');
+                      var url = window.location.href;
+                      getRajVFX(url);
+                      window.history.pushState("", "", url);
+                  },
+                  error: function (data) {
+                      console.log('Error:', data);
+                      $('#editsubmit').html('Save Changes');
+                  }
+                });
+               });
+            });
+  </script>
+
+
+  <script type="text/javascript">
+  $('#submit').click(function (e) {
+      e.preventDefault();
+
+      $('.loading').show();
+
+      // Serialize the entire form:
+      var data = new FormData(this.form);
+      $.ajax({
+        url: "{{ route('comments.store') }}",
+        type: "POST",
+        data: data,
+        processData: false,
+        contentType: false,
+        dataType: 'json',
+        success: function (data) {
+            $('.loading').hide();
+            $('#frm').trigger("reset");
+//          ajaxLoad(data.redirect_url);
+            var url = window.location.href;
+            getRajVFX(url);
+            window.history.pushState("", "", url);
+        },
+        error: function (data) {
+            console.log('Error:', data);
+            $('#submit').html('Save Changes');
+        }
+    });
+  });
+  </script>
+
+  <script type="text/javascript">
+         jQuery(document).ready(function(){
+             $('body').on('click', '.ajaxSubmit', function(e) {
+               e.preventDefault();
+               $('.loading').show();
+               var btn_id = $(this).data("id");
+  //           alert(btn_id);
+               $.ajaxSetup({
+                 headers: {
+                   'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                 }
+               });
+               $.ajax({
+                  url: "{{ route('comments.store') }}",
+                  method: 'post',
+                  data: {
+                     body: jQuery('#body'+btn_id).val(),
+                     post_id: jQuery('#property_id'+btn_id).val(),
+                     parent_id: jQuery('#parent_id'+btn_id).val()
+                  },
+                  success: function (data) {
+                      $('.loading').hide();
+                      $('#frm').trigger("reset");
+          //          ajaxLoad(button.data('href'),'modal_contentRaj');
+                      var url = window.location.href;
+                      getRajVFX(url);
+                      window.history.pushState("", "", url);
+                  },
+                  error: function (data) {
+                      console.log('Error:', data);
+                      $('#submit').html('Save Changes');
+                  }
+                });
+               });
+            });
+  </script>
+  <script type="text/javascript">
+  function getRajVFX(url) {
+      $.ajax({
+          url : url
+      }).done(function (data) {
+          $('.articles').html(data);
+      }).fail(function () {
+          alert('Articles could not be loaded.');
+      });
+  }
+  </script>
+  <script type="text/javascript">
+          document.documentElement.setAttribute("lang", "en");
+          document.documentElement.removeAttribute("class");
+  </script>
+
+  <script type="text/javascript">
+  $('body').on('click', '.deleteComment', function () {
+      var product_id = $(this).data("id");
+      {
+          Swal.fire({
+              title: "Are you sure?",
+              text: "Please ensure and then confirm!",
+              confirmButtonText: "Yes, delete the comment!",
+              type: "warning",
+              showCancelButton: !0,
+              cancelButtonText: "No, cancel!",
+              reverseButtons: !0
+          }).then(function (e) {
+
+              if (e.value === true) {
+                $.ajaxSetup({
+                     headers: {
+                               'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                              }
+                            });
+                  $.ajax({
+                    type: "DELETE",
+                    url: "{{url('comment/')}}/" + product_id,
+                    success: function (data) {
+                        toastr.error('Deleted', 'Comment deleted successfully');
+                        $('.loading').hide();
+                        var url = window.location.href;
+                        getRajVFX(url);
+                        window.history.pushState("", "", url);
+                    },
+                    error: function (data) {
+                        console.log('Error:', data);
+                    }
+                  });
+
+              } else {
+                  e.dismiss;
+              }
+
+          }, function (dismiss) {
+              return false;
+          })
+      }
+  });
+  $('body').on('click','.favorite', function(e) {
+    if ( $(this).hasClass("noClick") ) {
+        e.preventDefault;
+    } else {
+        var elem = $(this);
+        $(this).addClass("noClick");
+        var post_id = $(this).data('id');
+        $.ajax({
+          type: "get",
+          dataType: 'json',
+          data: {'id': post_id},
+          url: "{{route('favorite.store')}}",
+          success: function (data) {
+              toastr.success('Added', 'Property saved as favorite');
+              window.location.reload();
+          },
+          error: function (data) {
+              console.log('Error:', data);
+          }
+        })
+    }
+  })
+
+  $('body').on('click', '.remove-favorite', function () {
+      var product_id = $(this).data("id");
+      {
+          Swal.fire({
+              title: "Are you sure?",
+              text: "Please ensure and then confirm!",
+              confirmButtonText: "Yes, remove this from favorite!",
+              type: "warning",
+              showCancelButton: !0,
+              cancelButtonText: "No, cancel!",
+              reverseButtons: !0
+          }).then(function (e) {
+
+              if (e.value === true) {
+                $.ajaxSetup({
+                     headers: {
+                               'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                              }
+                            });
+                  $.ajax({
+                    type: "DELETE",
+                    url: "{{url('favorite/delete')}}/" + product_id,
+                    success: function (data) {
+                        toastr.error('removed', 'Removed from favorite');
+                        window.location.reload();
+                    },
+                    error: function (data) {
+                        console.log('Error:', data);
+                    }
+                  });
+
+              } else {
+                  e.dismiss;
+              }
+
+          }, function (dismiss) {
+              return false;
+          })
+      }
+  });
+  </script>
 @endsection

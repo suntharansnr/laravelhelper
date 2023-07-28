@@ -14,6 +14,15 @@
         {{-- <li class="nav-item">
           <a class="nav-link">Learn laravel from begginer level to master level on laravel.xyz</a>
         </li> --}}
+        @if(Auth::check())
+        @else
+          <li class="nav-item">
+            <a class="nav-link {{ Route::is('users.index') ? 'active' : '' }}" href="{{route('login')}}"><i class="fas fa-sign-in-alt"></i> Login<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{ Route::is('users.index') ? 'active' : '' }}" href="{{route('register')}}"><i class="fa fa-user-plus"></i> Register<span class="sr-only">(current)</span></a>
+          </li>
+        @endif
         <li class="nav-item">
           <a class="nav-link" href="https://wa.me/+940773624880">Hire us</a>
         </li>
@@ -23,6 +32,17 @@
         <li class="nav-item">
           <a class="nav-link" href="{{route('blog.recent')}}">Recently visited</a>
         </li>
+        @if(Auth::check())
+        <li class="nav-item">
+        <a class="nav-link {{ Route::is('logout') ? 'active' : '' }}" href="{{route('logout')}}"
+        onclick="event.preventDefault();
+                      document.getElementById('logout-form').submit();">
+         <i class="fa fa-sign-out"></i> Log-out</a>
+         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+             @csrf
+         </form>
+        </li>
+        @endif
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search here..." aria-label="Search" id="search" onkeyup="searchBlog()">

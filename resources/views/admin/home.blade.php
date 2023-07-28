@@ -63,7 +63,7 @@
           </div>  
           <div class="card">
             <div class="card-header pcard-heading active">
-              <h5 class="success-heading">venue Details <a class="float-right" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <h5 class="success-heading">Posts Details <a class="float-right" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               </a></h5>
             </div>
 
@@ -73,7 +73,7 @@
                 <div class="col-xs-12 col-md-6 col-lg-6 col-xl-3">
                     <div class="card-box shadow noradius noborder bg-default">
                         <i class="fas fa-music float-right text-white" aria-hidden="true"></i>
-                        <h6 class="text-white text-uppercase m-b-20">No of radios</h6>
+                        <h6 class="text-white text-uppercase m-b-20">Total posts</h6>
                         <h1 class="m-b-20 text-white counter">{{$countprop}}</h1>
                     </div>
                 </div>
