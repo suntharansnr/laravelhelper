@@ -77,7 +77,7 @@ Route::group(['prefix' => 'users','middleware'=>'auth'], function () {
 });
 //User management section routes ends
 
-//User management section routes starts
+//Subscriptions section routes starts
 Route::group(['prefix' => 'subscriptions','middleware'=>'auth'], function () {
     Route::get('/', 'SubscriptionController@index')->name('subscriptions.index');
     Route::match(['get', 'put'], 'edit/{id}', 'SubscriptionController@edit')->name('subscriptions.edit');
@@ -86,27 +86,7 @@ Route::group(['prefix' => 'subscriptions','middleware'=>'auth'], function () {
     Route::post('store', 'SubscriptionController@store')->name('subscriptions.store');
     Route::get('Status_Update','SubscriptionController@Status_Update')->name('Status_Update');
 });
-//User management section routes ends
-
-//radio details section routes starts
-Route::group(['prefix' => 'radio','middleware'=>'auth'], function () {
-    Route::get('/', 'RadioController@index')->name('radio.index');
-    Route::post('store', 'RadioController@store')->name('radio.store');
-    Route::get('edit/{id}', 'RadioController@edit')->name('radio.edit');
-    Route::post('update', 'RadioController@update')->name('radio.update');
-    Route::get('show/{id}', 'RadioController@show')->name('radio.show');
-    Route::delete('delete/{id}', 'RadioController@delete');
-    Route::get('status','RadioController@Status_Update')->name('radio.change_status');
-});
-
-Route::get('radio/countries/{id}','RadioController@getCountries');
-Route::get('radio/states/{id}','RadioController@getStates');
-Route::get('radio/cities/{id}','RadioController@getCities');
-//radio details section routes ends
-
-Route::patch('request/{id}','RadioController@Request')->name('Request');
-Route::get('Property_Status_Update','RadioController@Status_Update')->name('Property_Status_Update');
-//property details section routes ends
+//Subscriptions section routes ends
 
 //post details section routes starts
 Route::group(['prefix' => 'post','middleware'=>'auth'], function () {
@@ -117,13 +97,12 @@ Route::group(['prefix' => 'post','middleware'=>'auth'], function () {
     Route::get('show/{id}', 'PostController@show')->name('post.show');
     Route::delete('delete/{id}', 'PostController@delete');
 
-    //post management section routes
     Route::patch('request/{id}','PostController@Request')->name('Request');
     Route::get('Post_Status_Update','PostController@Status_Update')->name('Post_Status_Update');
     //post details section routes ends
 });
 
-//about details section routes starts
+//about section routes starts
 Route::group(['prefix' => 'about-us','middleware'=>'auth'], function () {
     Route::get('/', 'AboutController@index')->name('about.index');
     Route::post('store', 'AboutController@store')->name('about.store');
@@ -132,10 +111,10 @@ Route::group(['prefix' => 'about-us','middleware'=>'auth'], function () {
     Route::get('show/{id}', 'AboutController@show')->name('about.show');
     Route::delete('delete/{id}', 'AboutController@delete');
     Route::get('status','AboutController@Status_Update')->name('about.status');
-    //about details section routes ends
+    //about section routes ends
 });
 
-//about details section routes starts
+//team section routes starts
 Route::group(['prefix' => 'team','middleware'=>'auth'], function () {
     Route::get('/', 'TeamController@index')->name('team.index');
     Route::post('store', 'TeamController@store')->name('team.store');
@@ -144,10 +123,10 @@ Route::group(['prefix' => 'team','middleware'=>'auth'], function () {
     Route::get('show/{id}', 'TeamController@show')->name('team.show');
     Route::delete('delete/{id}', 'TeamController@delete');
     Route::get('status','TeamController@Status_Update')->name('team.status');
-    //about details section routes ends
+    //team section routes ends
 });
 
-//about details section routes starts
+//testimonial section routes starts
 Route::group(['prefix' => 'testimonial','middleware'=>'auth'], function () {
     Route::get('/', 'TestimonialController@index')->name('testimonial.index');
     Route::post('store', 'TestimonialController@store')->name('testimonial.store');
@@ -156,10 +135,10 @@ Route::group(['prefix' => 'testimonial','middleware'=>'auth'], function () {
     Route::get('show/{id}', 'TestimonialController@show')->name('testimonial.show');
     Route::delete('delete/{id}', 'TestimonialController@delete');
     Route::get('status','TestimonialController@Status_Update')->name('testimonial.status');
-    //about details section routes ends
+    //testimonial section routes ends
 });
 
-//about details section routes starts
+//faq section routes starts
 Route::group(['prefix' => 'faqs','middleware'=>'auth'], function () {
     Route::get('/', 'FaqController@index')->name('faq.index');
     Route::post('store', 'FaqController@store')->name('faq.store');
@@ -168,10 +147,10 @@ Route::group(['prefix' => 'faqs','middleware'=>'auth'], function () {
     Route::get('show/{id}', 'FaqController@show')->name('faq.show');
     Route::delete('delete/{id}', 'FaqController@delete');
     Route::get('status','FaqController@Status_Update')->name('faq.status');
-    //about details section routes ends
+    //faq section routes ends
 });
 
-//post details section routes starts
+//category section routes starts
 Route::group(['prefix' => 'category','middleware'=>'auth'], function () {
     Route::get('/', 'CategoryController@index')->name('category.index');
     Route::post('store', 'CategoryController@store')->name('category.store');
@@ -180,10 +159,9 @@ Route::group(['prefix' => 'category','middleware'=>'auth'], function () {
     Route::get('show/{id}', 'CategoryController@show')->name('category.show');
     Route::delete('delete/{id}', 'CategoryController@delete');
 
-    //post management section routes
     Route::patch('request/{id}','CategoryController@Request')->name('Request');
     Route::get('Status_Update','CategoryController@Status_Update')->name('category.status_update');
-    //post details section routes ends
+    //category section routes ends
 });
 
 //genre details section routes starts
@@ -194,14 +172,12 @@ Route::group(['prefix' => 'genre','middleware'=>'auth'], function () {
     Route::post('update', 'GenreController@update')->name('genre.update');
     Route::get('show/{id}', 'GenreController@show')->name('genre.show');
     Route::delete('delete/{id}', 'GenreController@delete');
-
-    //post management section routes
     Route::patch('request/{id}','GenreController@Request')->name('Request');
     Route::get('Status_Update','GenreController@Status_Update')->name('genre.status_update');
-    //post details section routes ends
+    //genre section routes ends
 });
 
-//genre details section routes starts
+//type section routes starts
 Route::group(['prefix' => 'type','middleware'=>'auth'], function () {
     Route::get('/', 'TypeController@index')->name('type.index');
     Route::post('store', 'TypeController@store')->name('type.store');
@@ -209,11 +185,9 @@ Route::group(['prefix' => 'type','middleware'=>'auth'], function () {
     Route::post('update', 'TypeController@update')->name('type.update');
     Route::get('show/{id}', 'TypeController@show')->name('type.show');
     Route::delete('delete/{id}', 'TypeController@delete');
-
-    //post management section routes
     Route::patch('request/{id}','TypeController@Request')->name('Request');
     Route::get('Status_Update','TypeController@Status_Update')->name('type.status_update');
-    //post details section routes ends
+    //type section routes ends
 });
 
 //continent routes starts
@@ -273,7 +247,7 @@ Route::group(['prefix' => 'city','middleware'=>'auth'], function () {
 });
 //city routes ends
 
-//radio details section routes starts
+//slider section routes starts
 Route::group(['prefix' => 'slider','middleware'=>'auth'], function () {
     Route::get('/', 'SliderController@index')->name('slider.index');
     Route::post('store', 'SliderController@store')->name('slider.store');
@@ -310,18 +284,11 @@ Route::POST('/report', 'PagesController@report')->name('report.store');
 Route::get('/blog', 'PagesController@blog')->name('blog');
 Route::get('/blog/{slug}', 'PagesController@showblog')->name('blog.show');
 
-
-Route::get('/home/radio', 'PagesController@radios')->name('radios');
 Route::get('/blog/category/{category_id}', 'PagesController@category')->name('blogs.category');
-Route::get('/radios/local', 'PagesController@radioslocal')->name('radio.local');
 Route::get('/radios/region', 'PagesController@radiosregion')->name('radio.region');
 Route::get('/blogs/recent', 'PagesController@recent')->name('blog.recent');
 Route::get('/radios/trending', 'PagesController@trending')->name('radio.trending');
 Route::get('/blogs/popular', 'PagesController@popular')->name('blog.popular');
-Route::get('/radios/language', 'PagesController@language')->name('radio.language');
-Route::get('/radios/language/{language}', 'PagesController@languageview')->name('radio.languageview');
-Route::get('/radios/{language}/{category}', 'PagesController@langcatview')->name('radio.langcatview');
-Route::get('/Radio/{radio}', 'PagesController@radioview')->name('radio.view');
 
 Route::get('/postsearch', 'PagesController@postsearch')->name('post.postsearch');
 
