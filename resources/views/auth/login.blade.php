@@ -14,7 +14,7 @@
 
 @endsection
 @section('content')
-<div class="container-fluid" style="background-image:linear-gradient(#01D3D4,#261630);height:100vh !important">
+<div class="container-fluid" style="background-color:#261630;height:100vh !important">
     <div class="row justify-content-center">
         <div class="col-md-4">
             <div class="card mb-3" style="margin-top:20px;">
