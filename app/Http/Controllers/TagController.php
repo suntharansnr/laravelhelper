@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\Tag;
 use App\Metatag;
 use App\Models\User;
+use App\Theme;
 use Route;
 use Auth;
 use DataTables;
