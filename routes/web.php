@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -102,54 +103,6 @@ Route::group(['prefix' => 'post','middleware'=>'auth'], function () {
     //post details section routes ends
 });
 
-//about section routes starts
-Route::group(['prefix' => 'about-us','middleware'=>'auth'], function () {
-    Route::get('/', 'AboutController@index')->name('about.index');
-    Route::post('store', 'AboutController@store')->name('about.store');
-    Route::get('edit/{id}', 'AboutController@edit')->name('about.edit');
-    Route::post('update', 'AboutController@update')->name('about.update');
-    Route::get('show/{id}', 'AboutController@show')->name('about.show');
-    Route::delete('delete/{id}', 'AboutController@delete');
-    Route::get('status','AboutController@Status_Update')->name('about.status');
-    //about section routes ends
-});
-
-//team section routes starts
-Route::group(['prefix' => 'team','middleware'=>'auth'], function () {
-    Route::get('/', 'TeamController@index')->name('team.index');
-    Route::post('store', 'TeamController@store')->name('team.store');
-    Route::get('edit/{id}', 'TeamController@edit')->name('team.edit');
-    Route::post('update', 'TeamController@update')->name('team.update');
-    Route::get('show/{id}', 'TeamController@show')->name('team.show');
-    Route::delete('delete/{id}', 'TeamController@delete');
-    Route::get('status','TeamController@Status_Update')->name('team.status');
-    //team section routes ends
-});
-
-//testimonial section routes starts
-Route::group(['prefix' => 'testimonial','middleware'=>'auth'], function () {
-    Route::get('/', 'TestimonialController@index')->name('testimonial.index');
-    Route::post('store', 'TestimonialController@store')->name('testimonial.store');
-    Route::get('edit/{id}', 'TestimonialController@edit')->name('testimonial.edit');
-    Route::post('update', 'TestimonialController@update')->name('testimonial.update');
-    Route::get('show/{id}', 'TestimonialController@show')->name('testimonial.show');
-    Route::delete('delete/{id}', 'TestimonialController@delete');
-    Route::get('status','TestimonialController@Status_Update')->name('testimonial.status');
-    //testimonial section routes ends
-});
-
-//faq section routes starts
-Route::group(['prefix' => 'faqs','middleware'=>'auth'], function () {
-    Route::get('/', 'FaqController@index')->name('faq.index');
-    Route::post('store', 'FaqController@store')->name('faq.store');
-    Route::get('edit/{id}', 'FaqController@edit')->name('faq.edit');
-    Route::post('update', 'FaqController@update')->name('faq.update');
-    Route::get('show/{id}', 'FaqController@show')->name('faq.show');
-    Route::delete('delete/{id}', 'FaqController@delete');
-    Route::get('status','FaqController@Status_Update')->name('faq.status');
-    //faq section routes ends
-});
-
 //category section routes starts
 Route::group(['prefix' => 'category','middleware'=>'auth'], function () {
     Route::get('/', 'CategoryController@index')->name('category.index');
@@ -163,102 +116,6 @@ Route::group(['prefix' => 'category','middleware'=>'auth'], function () {
     Route::get('Status_Update','CategoryController@Status_Update')->name('category.status_update');
     //category section routes ends
 });
-
-//genre details section routes starts
-Route::group(['prefix' => 'genre','middleware'=>'auth'], function () {
-    Route::get('/', 'GenreController@index')->name('genre.index');
-    Route::post('store', 'GenreController@store')->name('genre.store');
-    Route::get('edit/{id}', 'GenreController@edit')->name('genre.edit');
-    Route::post('update', 'GenreController@update')->name('genre.update');
-    Route::get('show/{id}', 'GenreController@show')->name('genre.show');
-    Route::delete('delete/{id}', 'GenreController@delete');
-    Route::patch('request/{id}','GenreController@Request')->name('Request');
-    Route::get('Status_Update','GenreController@Status_Update')->name('genre.status_update');
-    //genre section routes ends
-});
-
-//type section routes starts
-Route::group(['prefix' => 'type','middleware'=>'auth'], function () {
-    Route::get('/', 'TypeController@index')->name('type.index');
-    Route::post('store', 'TypeController@store')->name('type.store');
-    Route::get('edit/{id}', 'TypeController@edit')->name('type.edit');
-    Route::post('update', 'TypeController@update')->name('type.update');
-    Route::get('show/{id}', 'TypeController@show')->name('type.show');
-    Route::delete('delete/{id}', 'TypeController@delete');
-    Route::patch('request/{id}','TypeController@Request')->name('Request');
-    Route::get('Status_Update','TypeController@Status_Update')->name('type.status_update');
-    //type section routes ends
-});
-
-//continent routes starts
-Route::group(['prefix' => 'continent','middleware'=>'auth'], function () {
-    Route::get('/', 'ContinentController@index')->name('continent.index');
-    Route::post('store', 'ContinentController@store')->name('continent.store');
-    Route::get('edit/{id}', 'ContinentController@edit')->name('continent.edit');
-    Route::post('update', 'ContinentController@update')->name('continent.update');
-    Route::delete('delete/{id}', 'ContinentController@delete');
-    Route::patch('request/{id}','ContinentController@Request')->name('Request');
-});
-//continent routes ends
-
-//country routes starts
-Route::group(['prefix' => 'country','middleware'=>'auth'], function () {
-    Route::get('/', 'CountryController@index')->name('country.index');
-    Route::post('store', 'CountryController@store')->name('country.store');
-    Route::get('edit/{id}', 'CountryController@edit')->name('country.edit');
-    Route::post('update', 'CountryController@update')->name('country.update');
-    Route::delete('delete/{id}', 'CountryController@delete');
-    Route::patch('request/{id}','CountryController@Request')->name('Request');
-});
-//country riutes ends
-
-//language routes starts
-Route::group(['prefix' => 'language','middleware'=>'auth'], function () {
-    Route::get('/', 'LanguageController@index')->name('language.index');
-    Route::post('store', 'LanguageController@store')->name('language.store');
-    Route::get('edit/{id}', 'LanguageController@edit')->name('language.edit');
-    Route::post('update', 'LanguageController@update')->name('language.update');
-    Route::delete('delete/{id}', 'LanguageController@delete');
-    Route::patch('request/{id}','LanguageController@Request')->name('Request');
-});
-//language routes ends
-
-//country routes starts
-Route::group(['prefix' => 'state','middleware'=>'auth'], function () {
-    Route::get('/', 'StateController@index')->name('state.index');
-    Route::post('store', 'StateController@store')->name('state.store');
-    Route::get('edit/{id}', 'StateController@edit')->name('state.edit');
-    Route::post('update', 'StateController@update')->name('state.update');
-    Route::delete('delete/{id}', 'StateController@delete');
-
-    Route::patch('request/{id}','StateController@Request')->name('Request');
-});
-//country riutes ends
-
-//city routes starts
-Route::group(['prefix' => 'city','middleware'=>'auth'], function () {
-    Route::get('/', 'CityController@index')->name('city.index');
-    Route::post('store', 'CityController@store')->name('city.store');
-    Route::get('edit/{id}', 'CityController@edit')->name('city.edit');
-    Route::post('update', 'CityController@update')->name('city.update');
-    Route::delete('delete/{id}', 'CityController@delete');
-
-    Route::patch('request/{id}','CityController@Request')->name('Request');
-});
-//city routes ends
-
-//slider section routes starts
-Route::group(['prefix' => 'slider','middleware'=>'auth'], function () {
-    Route::get('/', 'SliderController@index')->name('slider.index');
-    Route::post('store', 'SliderController@store')->name('slider.store');
-    Route::get('edit/{id}', 'SliderController@edit')->name('slider.edit');
-    Route::post('update', 'SliderController@update')->name('slider.update');
-    Route::get('show/{id}', 'SliderController@show')->name('slider.show');
-    Route::delete('delete/{id}', 'SliderController@delete');
-    Route::get('status','SliderController@Status_Update')->name('slider.change_status');
-});
-//slider details ends
-
 
 //front end section routes start
 Route::get('/', 'PagesController@homepage')->name('homepage');
