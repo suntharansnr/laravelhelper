@@ -120,26 +120,6 @@ Route::group(['prefix' => 'users','middleware'=>'auth'], function () {
 });
 //User management section routes ends
 
-//radio details section routes starts
-Route::group(['prefix' => 'radio','middleware'=>'auth'], function () {
-    Route::get('/', 'RadioController@index')->name('radio.index');
-    Route::post('store', 'RadioController@store')->name('radio.store');
-    Route::get('edit/{id}', 'RadioController@edit')->name('radio.edit');
-    Route::post('update', 'RadioController@update')->name('radio.update');
-    Route::get('show/{id}', 'RadioController@show')->name('radio.show');
-    Route::delete('delete/{id}', 'RadioController@delete');
-    Route::get('status','RadioController@Status_Update')->name('radio.change_status');
-});
-
-Route::get('radio/countries/{id}','RadioController@getCountries');
-Route::get('radio/states/{id}','RadioController@getStates');
-Route::get('radio/cities/{id}','RadioController@getCities');
-//radio details section routes ends
-
-Route::patch('request/{id}','RadioController@Request')->name('Request');
-Route::get('Property_Status_Update','RadioController@Status_Update')->name('Property_Status_Update');
-//property details section routes ends
-
 //post details section routes starts
 Route::group(['prefix' => 'post','middleware'=>'auth'], function () {
     Route::get('/', 'PostController@index')->name('post.index');
@@ -153,54 +133,6 @@ Route::group(['prefix' => 'post','middleware'=>'auth'], function () {
     Route::patch('request/{id}','PostController@Request')->name('Request');
     Route::get('Post_Status_Update','PostController@Status_Update')->name('Post_Status_Update');
     //post details section routes ends
-});
-
-//about details section routes starts
-Route::group(['prefix' => 'about-us'], function () {
-    Route::get('/', [AboutController::class ,'index']);
-    Route::post('store', [AboutController::class , 'store']);
-    Route::get('edit/{id}', [AboutController::class ,'edit']);
-    Route::post('update', [AboutController::class , 'update']);
-    Route::get('show/{id}', [AboutController::class,'show']);
-    Route::delete('delete/{id}', [AboutController::class,'delete']);
-    Route::get('status',[AboutController::class,'Status_Update']);
-    //about details section routes ends
-});
-
-//about details section routes starts
-Route::group(['prefix' => 'team','middleware'=>'auth'], function () {
-    Route::get('/', 'TeamController@index')->name('team.index');
-    Route::post('store', 'TeamController@store')->name('team.store');
-    Route::get('edit/{id}', 'TeamController@edit')->name('team.edit');
-    Route::post('update', 'TeamController@update')->name('team.update');
-    Route::get('show/{id}', 'TeamController@show')->name('team.show');
-    Route::delete('delete/{id}', 'TeamController@delete');
-    Route::get('status','TeamController@Status_Update')->name('team.status');
-    //about details section routes ends
-});
-
-//about details section routes starts
-Route::group(['prefix' => 'testimonial','middleware'=>'auth'], function () {
-    Route::get('/', 'TestimonialController@index')->name('testimonial.index');
-    Route::post('store', 'TestimonialController@store')->name('testimonial.store');
-    Route::get('edit/{id}', 'TestimonialController@edit')->name('testimonial.edit');
-    Route::post('update', 'TestimonialController@update')->name('testimonial.update');
-    Route::get('show/{id}', 'TestimonialController@show')->name('testimonial.show');
-    Route::delete('delete/{id}', 'TestimonialController@delete');
-    Route::get('status','TestimonialController@Status_Update')->name('testimonial.status');
-    //about details section routes ends
-});
-
-//about details section routes starts
-Route::group(['prefix' => 'faqs','middleware'=>'auth'], function () {
-    Route::get('/', 'FaqController@index')->name('faq.index');
-    Route::post('store', 'FaqController@store')->name('faq.store');
-    Route::get('edit/{id}', 'FaqController@edit')->name('faq.edit');
-    Route::post('update', 'FaqController@update')->name('faq.update');
-    Route::get('show/{id}', 'FaqController@show')->name('faq.show');
-    Route::delete('delete/{id}', 'FaqController@delete');
-    Route::get('status','FaqController@Status_Update')->name('faq.status');
-    //about details section routes ends
 });
 
 //post details section routes starts
@@ -218,90 +150,6 @@ Route::group(['prefix' => 'category'], function () {
     //post details section routes ends
 });
 
-//genre details section routes starts
-Route::group(['prefix' => 'genre','middleware'=>'auth'], function () {
-    Route::get('/', 'GenreController@index')->name('genre.index');
-    Route::post('store', 'GenreController@store')->name('genre.store');
-    Route::get('edit/{id}', 'GenreController@edit')->name('genre.edit');
-    Route::post('update', 'GenreController@update')->name('genre.update');
-    Route::get('show/{id}', 'GenreController@show')->name('genre.show');
-    Route::delete('delete/{id}', 'GenreController@delete');
-
-    //post management section routes
-    Route::patch('request/{id}','GenreController@Request')->name('Request');
-    Route::get('Status_Update','GenreController@Status_Update')->name('genre.status_update');
-    //post details section routes ends
-});
-
-//genre details section routes starts
-Route::group(['prefix' => 'type','middleware'=>'auth'], function () {
-    Route::get('/', 'TypeController@index')->name('type.index');
-    Route::post('store', 'TypeController@store')->name('type.store');
-    Route::get('edit/{id}', 'TypeController@edit')->name('type.edit');
-    Route::post('update', 'TypeController@update')->name('type.update');
-    Route::get('show/{id}', 'TypeController@show')->name('type.show');
-    Route::delete('delete/{id}', 'TypeController@delete');
-
-    //post management section routes
-    Route::patch('request/{id}','TypeController@Request')->name('Request');
-    Route::get('Status_Update','TypeController@Status_Update')->name('type.status_update');
-    //post details section routes ends
-});
-
-//continent routes starts
-Route::group(['prefix' => 'continent','middleware'=>'auth'], function () {
-    Route::get('/', 'ContinentController@index');
-    Route::post('store', 'ContinentController@store');
-    Route::get('edit/{id}', 'ContinentController@edit');
-    Route::post('update', 'ContinentController@update');
-    Route::delete('delete/{id}', 'ContinentController@delete');
-    Route::patch('request/{id}','ContinentController@Request');
-});
-//continent routes ends
-
-//country routes starts
-Route::group(['prefix' => 'country','middleware'=>'auth'], function () {
-    Route::get('/', [CountryController::class,'index']);
-    Route::post('store', [CountryController::class,'store']);
-    Route::get('edit/{id}', [CountryController::class,'edit']);
-    Route::post('update', [CountryController::class,'update']);
-    Route::delete('delete/{id}', [CountryController::class, 'delete']);
-    Route::patch('request/{id}',[CountryController::class,'Request']);
-});
-//country riutes ends
-
-//language routes starts
-Route::group(['prefix' => 'language','middleware'=>'auth'], function () {
-    Route::get('/', 'LanguageController@index')->name('language.index');
-    Route::post('store', 'LanguageController@store')->name('language.store');
-    Route::get('edit/{id}', 'LanguageController@edit')->name('language.edit');
-    Route::post('update', 'LanguageController@update')->name('language.update');
-    Route::delete('delete/{id}', 'LanguageController@delete');
-    Route::patch('request/{id}','LanguageController@Request')->name('Request');
-});
-//language routes ends
-
-//country routes starts
-Route::group(['prefix' => 'state','middleware'=>'auth'], function () {
-    Route::get('/', [StateController::class,'index']);
-    Route::post('store', [StateController::class,'store']);
-    Route::get('edit/{id}', [StateController::class,'edit']);
-    Route::post('update', [StateController::class,'update']);
-    Route::delete('delete/{id}', [StateController::class,'delete']);
-    Route::patch('request/{id}',[StateController::class,'Request']);
-});
-//country riutes ends
-
-//city routes starts
-Route::group(['prefix' => 'city','middleware'=>'auth:api'], function () {
-    Route::get('/', [CityController::class,'index']);
-    Route::post('store', [CityController::class , 'store']);
-    Route::get('edit/{id}', [CityController::class,'edit']);
-    Route::post('update', [CityController::class,'update']);
-    Route::delete('delete/{id}', [CityController::class,'delete']);
-    Route::patch('request/{id}',[CityController::class,'Request']);
-});
-//city routes ends
 });
 
 Route::fallback(function(){
