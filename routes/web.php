@@ -161,7 +161,10 @@ Route::DELETE('/favorite/delete/{id}', 'PagesController@deletefavorite')->name('
 
 
 //sitemap routes starts
-
+Route::get('/sitemap.xml', 'SitemapController@index');
+Route::get('/sitemap.xml/posts', 'SitemapController@posts');
+Route::get('/sitemap.xml/categories', 'SitemapController@categories');
+Route::get('/sitemap.xml/site_url', 'SitemapController@site_url');
 //sitmap routes ends
 
 //optimize clear start
