@@ -125,8 +125,8 @@ Route::POST('/comment', 'CommentController@store')->name('comments.store');
 Route::delete('comment/{id}', 'CommentController@delete')->name('comment.delete');
 Route::get('comment/edit/{id}', 'CommentController@edit')->name('comment.edit');
 Route::POST('comment/update', 'CommentController@update')->name('comment.update');
-Route::get('/blog/{slug}', 'PagesController@showblog')->name('blog.show');
 });
+Route::get('/blog/{slug}', 'PagesController@showblog')->name('blog.show');
 
 Route::get('/update-views', 'PagesController@updateViews')->name('updateviews');
 Route::post('/subscribe', 'PagesController@subscribe')->name('subscribe');
@@ -161,7 +161,7 @@ Route::DELETE('/favorite/delete/{id}', 'PagesController@deletefavorite')->name('
 
 
 //sitemap routes starts
-Route::get('/sitemap.xml', 'SitemapController@index');
+// Route::get('/sitemap.xml', 'SitemapController@index');
 Route::get('/sitemap.xml/posts', 'SitemapController@posts');
 Route::get('/sitemap.xml/categories', 'SitemapController@categories');
 Route::get('/sitemap.xml/site_url', 'SitemapController@site_url');

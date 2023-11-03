@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use Route;
 use App\Metatag;
+use App\Models\Noty;
 use Auth;
 use DataTables;
 use App\Notifications\NewUser;
@@ -187,11 +188,9 @@ class UsersController extends Controller
     }
 
     public function AdminNotifications(Request $request){
-        $notifications = DB::table('notifications')
-                           ->where('type','=','App\\Notifications\\NewUserVisit')
+        $notifications = Noty::where('type','=','App\\Notifications\\NewUserVisit')
                            ->where('notifiable_id',Auth::user()->id)
-                           ->orderBy('created_at','DESC')
-                           ->get();
+                           ->orderBy('created_at','DESC');
         if ($request->ajax()){
           $data = $notifications;
           return Datatables::of($data)

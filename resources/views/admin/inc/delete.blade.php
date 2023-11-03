@@ -1,9 +1,9 @@
 <script>
-    function delete_this(url) {
+    function delete_this(url,table) {
         Swal.fire({
             title: "Are you sure?",
             text: "Please ensure and then confirm!",
-            confirmButtonText: "Yes, delete the about!",
+            confirmButtonText: "Yes, delete the "+table,
             type: "warning",
             showCancelButton: !0,
             cancelButtonText: "No, cancel!",
@@ -21,10 +21,10 @@
                     url: url,
                     success: function(data) {
                         if (data.msg == "relation_error") {
-                            toastr.error('Failed', 'city should be empty to delete');
+                            toastr.error('Failed', table+"should be empty to delete");
                         } else {
                             table.row(this).remove().draw(false);
-                            toastr.error('Deleted', 'City deleted successfully');
+                            toastr.error('Deleted', table+'deleted successfully');
                         };
                     },
                     error: function(data) {

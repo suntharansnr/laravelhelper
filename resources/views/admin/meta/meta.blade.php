@@ -9,13 +9,13 @@
 @section('content')
 @include('admin.inc.breadcrumb',['page' => 'Meta tag'])
 
-<div class="panel panel-primary" style="margin: 50px;background-color:#fff !important">
-              <div class="panel-heading" style="padding:10px !important">
+<div class="container-fluid" style="padding:30px;min-height:100vh">
+    <div class="card mb-3">
+              <div class="card-header">
                 <h3><i class="fa fa-tag"></i> Meta tag management</h3>
                 As an admin you can manage the meta tags of this site!
               </div>
-              <div class="panel-body" style="overflow-x: scroll;">
-                   <div style="width: 100%; padding-left: -10px;">
+              <div class="card-body" style="overflow-x: scroll;">
                      <div class="table-responsive">
                          <table class="table table-striped table-hover display nowrap data-table table-bordered" cellspacing="0" id="social_table" width="100%">
                              <thead>
@@ -26,6 +26,7 @@
                                      <th scope="col">Description</th>
                                      <th scope="col">Keywords</th>
                                      <th scope="col">Author</th>
+                                     <th scope="col">Views</th>
                                      <th scope="col">action</th>
                                  </tr>
                              </thead>
@@ -34,8 +35,8 @@
                              </tbody>
                          </table>
                      </div>
-                   </div>
               </div>
+    </div>
 </div>
 
 
@@ -266,6 +267,7 @@
             {data: 'description', name: 'description'},
             {data: 'keywords', name: 'keywords'},
             {data: 'author', name: 'author'},
+            {data: 'views', name: 'views'},
             {data: 'action', name: 'action', orderable: false, searchable: false}
         ],
         "fnDrawCallback": function(data) {

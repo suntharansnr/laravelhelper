@@ -4,7 +4,7 @@
   <meta name=google-site-verification content="">
   <meta name=yandex-verification content="">
   <meta name=msvalidate.01 content="">
-  <link rel="shortcut icon" type=image/png href=https://www.laravelhelper.monster/assets/images/logo.png>
+  <link rel="shortcut icon" type=image/png href=https://plusiunedevelopers.xyz/assets/images/logo.png>
   <meta name=p:domain_verify content="">
   <meta property="fb:app_id" content="">
   <title>Laravelhelper.monster | Web Development Tutorials & Solutions - Laravelhelper.monster</title>
@@ -12,18 +12,18 @@
     content="Laravelhelper website focuses on all web language and framework tutorial PHP, Laravel, Codeigniter, Nodejs, API, MySQL, AJAX, jQuery, JavaScript, Demo">
   <meta name=keywords
     content="laravel helper of it programming language,php,laravel 9,jquery,javascript,mysql,git,html,css,MySQL,HTML,CSS,git,AJAX,bootstrap, jQuery,JavaScript,Designing,Demo,laravelhelper.">
-  <meta name=twitter:image content="https://www.laravelhelper.monster/upload/laravelhelper.png">
-  <link rel=canonical href=https://www.laravelhelper.monster>
+  <meta name=twitter:image content="https://plusiunedevelopers.xyz/upload/laravelhelper.png">
+  <link rel=canonical href=https://plusiunedevelopers.xyz>
   <meta property="og:description"
     content="Laravelhelper website focuses on all web language and framework tutorial PHP, Laravel, Codeigniter, Nodejs, API, MySQL, AJAX, jQuery, JavaScript, Demo">
   <meta property="og:title" content="Laravelhelper.monster | Web Development Tutorials & Solutions">
-  <meta property="og:url" content="https://www.laravelhelper.monster">
-  <meta property="og:image:url" content="https://www.laravelhelper.com/upload/laravelhelper.png">
+  <meta property="og:url" content="https://plusiunedevelopers.xyz">
+  <meta property="og:image:url" content="https://plusiunedevelopers.xyz/upload/laravelhelper.png">
   <meta content="https://www.facebook.com/rajvarman" property="article:publisher">
   <meta content="https://www.facebook.com/rajvarman" property="article:author">
   <meta content="Raj varman" name=author>
   <meta name=twitter:title content="Laravelhelper.monster | Web Development Tutorials & Solutions">
-  <meta name=twitter:site content="https://www.laravelhelper.monster">
+  <meta name=twitter:site content="https://plusiunedevelopers.xyz">
   <meta name=twitter:description
     content="Laravelhelper.monster website focuses on all web language and framework tutorial PHP, Laravel, Codeigniter, Nodejs, API, MySQL, AJAX, jQuery, JavaScript, Demo">   
 @endsection
@@ -33,10 +33,15 @@
             width:100px;
             height: 100px;
         }
+    @media (max-width: 767px) {
+        .pagination-scroll-x {
+            overflow-x: auto;
+            white-space: nowrap; 
+        }
+    }
     </style>
 @endsection
 @section('content')
-{{-- Urgent ad list start --}}
 <div class="container-fluid mainwrappad">
   <div class="infinite-scroll">
     <div class="row">
@@ -67,14 +72,15 @@
          </div>
        </div>
        @endforeach
-       {{ $posts->links() }}
+       <div class="pagination-scroll-x">
+         {{ $posts->links() }}
+       </div>
        @else
        <h3 class="card-title" style="font-weight:600">Sorry no posts found!</h3>
        @endif
     </div>
   </div>
 </div>
-{{-- Urgent ad list end --}}
 @endsection
 @section('js')
 @endsection

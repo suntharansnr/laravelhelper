@@ -36,6 +36,21 @@
       </a>
       @endif
 
+      @can('permission-list')
+      <a class="{{ Route::is('permissions.index') ? 'ho' : '' }} vraj" href="{{route('permissions.index')}}">
+        <li class="list-group-item" style="background-color:transparent !important;color:#fff;font-size:1.05rem">
+          <div class="row">
+            <div class="col-md-2 col-2">
+              <i class="fas fa-user-tag"></i>
+            </div>
+            <div class="col-md-10 col-10">
+              <span>Permissions</span>
+            </div>
+          </div>
+        </li>
+      </a>
+      @endif
+
       @can('user-list')
       <a class="{{ Route::is('users.index') ? 'ho' : '' }} vraj" href="{{route('users.index')}}">
         <li class="list-group-item" style="background-color:transparent !important;color:#fff;font-size:1.05rem">
@@ -45,6 +60,36 @@
             </div>
             <div class="col-md-10 col-10">
               <span>User Mng</span>
+            </div>
+          </div>
+        </li>
+      </a>
+      @endcan
+
+      @can('notification-list')
+      <a class="{{ Route::is('admin.notifications') ? 'ho' : '' }} vraj" href="{{route('admin.notifications')}}">
+        <li class="list-group-item" style="background-color:transparent !important;color:#fff;font-size:1.05rem">
+          <div class="row">
+            <div class="col-md-2 col-2">
+              <i class="fa fa-users"></i>
+            </div>
+            <div class="col-md-10 col-10">
+              <span>Notifications</span>
+            </div>
+          </div>
+        </li>
+      </a>
+      @endcan
+
+      @can('subscription-list')
+      <a class="{{ Route::is('subscriptions.index') ? 'ho' : '' }} vraj" href="{{route('subscriptions.index')}}">
+        <li class="list-group-item" style="background-color:transparent !important;color:#fff;font-size:1.05rem">
+          <div class="row">
+            <div class="col-md-2 col-2">
+              <i class="fa fa-users"></i>
+            </div>
+            <div class="col-md-10 col-10">
+              <span>Subscriptions</span>
             </div>
           </div>
         </li>

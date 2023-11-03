@@ -1,6 +1,6 @@
 @extends('fronts.layouts.master')
 @section('meta_tags')
-        <title>laravelhelper | {{$post->title}}</title>
+        <title>Plusiunedevelopers | {{$post->title}}</title>
         <meta charset="utf-8"><!-- html5 version of http-equiv="Content-Type"... -->
         <meta name="description" content="{{strip_tags(Str::limit($post->content,200))}}">
         <meta name="keywords" content="laravel helper">
@@ -11,7 +11,7 @@
         <meta property="og:image" content="{{asset($post->img_path)}}">
         <meta property="og:description" content="{{strip_tags(Str::limit($post->content,200))}}">
         <meta property="og:title" content="{{$post->title}}">
-        <meta property="og:site_name" content="laravelhelper.xyz">
+        <meta property="og:site_name" content="plusiunedevelopers.xyz">
         <meta property="og:see_also" content="{{url()->current()}}">
 
         <meta itemprop="name" content="{{$post->title}}">
@@ -93,7 +93,7 @@
 
 @section('content')
 <div class="container text-center pt-2 pb-2 shadow" style="margin-top: 100px;background-color:#55acee;width:50%">
-<a href="https://backendeasysale.laravelhelper.monster/ad/103/laravel-real-estate-site-for-sale-with-admin-panel-at-20" class="link-stretched text-decoration-none text-white">
+<a href="https://backendeasysale.plusiunedevelopers.xyz/ad/106/laravel-real-estate-site-for-sale-with-admin-panel-at-20" class="link-stretched text-decoration-none text-white">
   <h3>Looking for ready made laravel scripts</h3>
 </a>
 </div>
@@ -122,7 +122,7 @@
           <h6 style="color:#337ab7">{{$post->category ? $post->category->name : ''}}</h6>
           <hr>
         </div>
-        <div class="post-description">
+        <div class="post-description" style="width: 100%;overflow:scroll-x;">
           {!! $post->content !!}
         </div>
 
