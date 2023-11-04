@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg fixed-top" id="navbar" style="background-image: linear-gradient(to right,#E7F1FC,#277FE5);">
+<nav class="navbar navbar-expand-lg fixed-top" id="navbar" style="background-image: linear-gradient(to bottom,#192129,#277FE5);">
 <button align="left"  name="button" id="menu-toggle" class="btn btn-info"><i class="fa fa-bars" style="font-size:1.2rem"></i></button>
   <li class="dropdown d-lg-none" style="list-style:none">
         <a align="right" href="#" id="mobilenotifications" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

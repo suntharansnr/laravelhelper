@@ -328,19 +328,19 @@
 			}
 
 			#navbar {
-				margin-left: 268px;
+				margin-left: 256px;
 			}
 
 			#page-content-wrapper {
 				min-width: 0;
 				width: 100%;
 				margin-top: 66px;
-				margin-left: 268px;
+				margin-left: 256px;
 				padding:0px;
 			}
 
 			#wrapper.toggled #sidebar-wrapper {
-				margin-left: -268px;
+				margin-left: -256px;
 			}
 
 			#wrapper.toggled #page-content-wrapper {

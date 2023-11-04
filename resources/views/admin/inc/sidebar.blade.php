@@ -71,7 +71,7 @@
         <li class="list-group-item" style="background-color:transparent !important;color:#fff;font-size:1.05rem">
           <div class="row">
             <div class="col-md-2 col-2">
-              <i class="fa fa-users"></i>
+              <i class="fa fa-bell"></i>
             </div>
             <div class="col-md-10 col-10">
               <span>Notifications</span>
