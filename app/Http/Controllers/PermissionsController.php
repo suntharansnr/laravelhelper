@@ -31,26 +31,21 @@ class PermissionsController extends Controller
     {
         // $routeName = Route::currentRouteName();
         // $meta_tag = Metatag::where('route', '=', $routeName)->firstOrFail();
-        $roles = Role::pluck('name','name')->all();
         if ($request->ajax()){
                               $data = Permission::query();
                               return Datatables::of($data)
                                       ->addIndexColumn()
                                       ->addColumn('action', function($row){
                                             $btn = '<a href="javascript:void(0)" class="btn btn-warning btn-sm editPermission" data-toggle="tooltip" data-id="'.$row->id.'" data-original-title="Edit"><i class="fa fa-edit"></i></a>';
-                                            if ($row->id == Auth::user()->id) {
-                                                $btn = $btn."&nbsp; ".'<button type="button" class="btn btn-danger btn-sm" name="button" disabled title="cant delete logged in permission"><i class="fa fa-times"></i></button>';
-                                            } else {
-                                                $btn = $btn."&nbsp; ".'<a href="javascript:void(0)" data-toggle="tooltip"  data-id="'.$row->id.'" data-original-title="Delete" class="btn btn-danger btn-sm deleteProduct"><i class="fa fa-times"></i></a>';
-                                            }
+                                            $btn = $btn."&nbsp; ".'<a href="javascript:void(0)" data-toggle="tooltip"  data-id="'.$row->id.'" data-original-title="Delete" class="btn btn-danger btn-sm deleteProduct"><i class="fa fa-times"></i></a>';
                                             return $btn;
                                       })
-                                      ->rawColumns(['action','position'])
+                                      ->rawColumns(['action'])
                                       ->make(true);
                               }
-                              return view('admin.permissions.permission',compact(
-                                // 'meta_tag',
-                                'roles'));
+                              return view('admin.permissions.permission'
+                              // ,compact('meta_tag'
+                              );
     }
     public function store(Request $request)
     {
