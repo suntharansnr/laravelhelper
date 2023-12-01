@@ -178,7 +178,6 @@ return [
         App\Providers\RouteServiceProvider::class,
         App\Providers\FortifyServiceProvider::class,
         App\Providers\JetstreamServiceProvider::class,
-
     ],
 
     /*
@@ -234,4 +233,8 @@ return [
         'Image' => Intervention\Image\Facades\Image::class,
     ],
 
+    'facebook' => [
+        'app_id' => env('FACEBOOK_CLIENT_ID', ''),
+        'app_secret' => env('FACEBOOK_CLIENT_SECRET', ''),
+    ]
 ];
