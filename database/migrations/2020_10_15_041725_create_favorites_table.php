@@ -17,7 +17,7 @@ class CreateFavoritesTable extends Migration
             $table->bigIncrements('id');
             $table->timestamps();
 
-            $table->foreignId('radio_id')->index();
+            $table->foreignId('post_id')->index();
             $table->foreignId('user_id')->index();
         });
     }

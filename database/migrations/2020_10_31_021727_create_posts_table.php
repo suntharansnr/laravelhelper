@@ -17,7 +17,7 @@ class CreatePostsTable extends Migration
             $table->bigIncrements('id');
             $table->string('title');
             $table->string('slug');
-            $table->string('content',64000)->nullable();
+            $table->longText('content')->nullable();
             $table->string('status')->default('Draft');
 
             $table->string('post_type');
