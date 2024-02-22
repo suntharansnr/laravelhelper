@@ -176,5 +176,10 @@
     });
 }
   </script>
+  <script type="text/javascript">
+  window.client_website_id = "bb919844-5411-4019-be68-8d4e573185d5";
+  (function(){d=document;s=d.createElement("script");s.src="http://localhost:8000/widget.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+  </script>
+  <!-- <script type="text/javascript">(function(){d=document;s=d.createElement("script");s.src="https://sitegpt.ai/widget/387085529145934413.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script> -->
 </body>
 </html>
